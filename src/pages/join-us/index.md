@@ -1,7 +1,6 @@
 ---
-templateKey: 'product-page'
-path: /join-us
-title: Our Coffee
+templateKey: product-page
+title: Join Us
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
 description: >-
@@ -99,3 +98,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
