@@ -9,7 +9,6 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ProductPageTemplate = ({
   image,
-  headerLogo,
   title,
   heading,
   description,
@@ -28,10 +27,6 @@ export const ProductPageTemplate = ({
         })`,
       }}
     >
-      <img
-      src={headerLogo}
-      alt="MPDSS Logo"
-      />
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
@@ -139,7 +134,6 @@ const ProductPage = ({ data }) => {
       <ProductPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        headerLogo={frontmatter.headerLogo}
         heading={frontmatter.heading}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -193,7 +187,6 @@ export const productPageQuery = graphql`
         main {
           heading
           description
-          headerLogo
           image1 {
             alt
             image {

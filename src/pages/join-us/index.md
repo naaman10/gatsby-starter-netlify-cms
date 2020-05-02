@@ -1,7 +1,6 @@
 ---
 templateKey: 'product-page'
 path: /join-us
-headerLogo: /img/orgtrans.png
 title: Our Coffee
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
