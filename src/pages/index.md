@@ -4,10 +4,6 @@ title: Manchester Paediatric Dentistry Student Society
 image: /img/dentist-home.jpeg
 heading: Great coffee with a conscience
 subheading: Supporting young adults find the right placement
-mainpitch:
-  title: Why Kaldi
-  description: >
-    Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis per. Nisi sapien varius mauris morbi cubilia conubia.
 description: >-
   Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis per. Nisi sapien varius mauris morbi cubilia conubia.
 intro:
