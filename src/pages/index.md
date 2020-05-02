@@ -2,27 +2,42 @@
 templateKey: index-page
 title: Manchester Paediatric Dentistry Student Society
 image: /img/dentist-home.jpeg
-heading: Great coffee with a conscience
-subheading: Supporting young adults find the right placement
+heading: Something Dentisty
+subheading: Educating children in oral health & delivering paeds dental talks
+mainpitch:
+  title: sdfg
+  description: dfghj
 description: >-
-  Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis per. Nisi sapien varius mauris morbi cubilia conubia.
+  Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
+  potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis
+  per. Nisi sapien varius mauris morbi cubilia conubia.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/tooth.png
       text: >
-        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis per. Nisi sapien varius mauris morbi cubilia conubia.
+        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
+        potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
+        felis per. Nisi sapien varius mauris morbi cubilia conubia.
     - image: /img/coffee-gear.png
       text: >
-        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis per. Nisi sapien varius mauris morbi cubilia conubia.
+        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
+        potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
+        felis per. Nisi sapien varius mauris morbi cubilia conubia.
     - image: /img/tutorials.png
       text: >
-        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis per. Nisi sapien varius mauris morbi cubilia conubia.
+        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
+        potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
+        felis per. Nisi sapien varius mauris morbi cubilia conubia.
     - image: /img/meeting-space.png
       text: >
-        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis per. Nisi sapien varius mauris morbi cubilia conubia.
+        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
+        potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
+        felis per. Nisi sapien varius mauris morbi cubilia conubia.
   heading: What we offer
   description: >
-    Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis per. Nisi sapien varius mauris morbi cubilia conubia.
+    Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
+    potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis
+    per. Nisi sapien varius mauris morbi cubilia conubia.
 main:
   heading: Great coffee with no compromises
   description: >
@@ -40,3 +55,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
