@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+
+import facebook from '../img/social/facebook.svg'
+import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg'
+import vimeo from '../img/social/vimeo.svg'
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,7 +46,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <h1 className="logoMPDSS"><span className="m">M</span><span className="p">P</span><span className="d">D</span><span className="s">S</span><span className="s2">S</span></h1>
             </Link>
             {/* Hamburger menu */}
             <div
@@ -77,16 +81,37 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
+            <div className="column social">
+              <a title="facebook" href="https://facebook.com">
+                <img
+                  src={facebook}
+                  alt="Facebook"
+                  style={{ width: '1em', height: '1em' }}
+                />
               </a>
+              <a title="twitter" href="https://twitter.com">
+                <img
+                  className="fas fa-lg"
+                  src={twitter}
+                  alt="Twitter"
+                  style={{ width: '1em', height: '1em' }}
+                />
+              </a>
+              <a title="instagram" href="https://instagram.com">
+                <img
+                  src={instagram}
+                  alt="Instagram"
+                  style={{ width: '1em', height: '1em' }}
+                />
+              </a>
+              <a title="vimeo" href="https://vimeo.com">
+                <img
+                  src={vimeo}
+                  alt="Vimeo"
+                  style={{ width: '1em', height: '1em' }}
+                />
+              </a>
+            </div>
             </div>
           </div>
         </div>
