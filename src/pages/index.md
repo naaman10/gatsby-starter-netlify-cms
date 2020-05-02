@@ -4,9 +4,6 @@ title: Manchester Paediatric Dentistry Student Society
 image: /img/dentist-home.jpeg
 heading: Something Dentisty
 subheading: Educating children in oral health & delivering paeds dental talks
-mainpitch:
-  title: sdfg
-  description: dfghj
 description: >-
   Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
   potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis
@@ -55,4 +52,3 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
-

@@ -10,6 +10,9 @@ $mpdss-green: rgba(255, 228, 77,1)
 $mpdss-blue: rgba(46, 54, 196,1)
 $kaldi-red-invert: #fff
 
+$gradientweb: -webkit-linear-gradient(to right, rgba(252, 72, 104,1), rgba(255,158,64,1))
+$gradient: linear-gradient(to right, rgba(252, 72, 104,1), rgba(255,158,64,1))
+
 $primary: $mpdss-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
@@ -23,6 +26,11 @@ h1,h2
 h3,h4,h5,h6
   font-family: $lato
 
+.btn
+  background: $gradientweb !important
+  background: $gradient !important
+  color: white !important
+  box-shadow: none !important
 
 .logoMPDSS
   font-family: $fredoka

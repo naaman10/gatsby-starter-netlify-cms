@@ -40,6 +40,8 @@ export const IndexPageTemplate = ({
           style={{
             lineHeight: '1',
             padding: '0.25em',
+            color: 'white',
+
           }}
         >
           {title}
@@ -50,7 +52,7 @@ export const IndexPageTemplate = ({
             boxShadow:
               'rgba(252, 72, 104,1) -0.5rem 0px 0px',
 
-
+            color: 'white',
             lineHeight: '1',
             padding: '0.25em',
           }}
