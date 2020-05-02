@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Find a work experience placement
-image: /img/central-library.jpg
+title: Manchester Paediatric Dentistry Student Society
+image: /img/dentist-home.jpeg
 heading: Great coffee with a conscience
 subheading: Supporting young adults find the right placement
 mainpitch:
