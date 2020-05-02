@@ -18,17 +18,17 @@ intro:
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
         potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
         felis per. Nisi sapien varius mauris morbi cubilia conubia.
-    - image: /img/coffee-gear.png
+    - image: /img/tooth.png
       text: >
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
         potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
         felis per. Nisi sapien varius mauris morbi cubilia conubia.
-    - image: /img/tutorials.png
+    - image: /img/tooth.png
       text: >
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
         potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
         felis per. Nisi sapien varius mauris morbi cubilia conubia.
-    - image: /img/meeting-space.png
+    - image: /img/tooth.png
       text: >
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
         potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
