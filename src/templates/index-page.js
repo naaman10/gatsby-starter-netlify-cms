@@ -9,6 +9,7 @@ import BlogRoll from '../components/BlogRoll'
 export const IndexPageTemplate = ({
   image,
   title,
+  logo,
   heading,
   subheading,
   description,
@@ -18,9 +19,7 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        backgroundColor: `#FDFFF7`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
@@ -35,30 +34,23 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            lineHeight: '1',
-            padding: '0.25em',
-            color: 'white',
+      <img
+        src={logo.childImageSharp.fluid.src}
+        className="homeLogo"
+      />
+      <h3
+        className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+        style={{
+          boxShadow:
+            'rgba(252, 72, 104,1) -0.5rem 0px 0px',
 
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgba(252, 72, 104,1) -0.5rem 0px 0px',
-
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
+          color: 'white',
+          lineHeight: '1',
+          padding: '0.25em',
+        }}
+      >
+        {subheading}
+      </h3>
       </div>
     </div>
     <section className="section section--gradient">
@@ -107,6 +99,7 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
+  logo: PropTypes.string,
   subheading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -123,6 +116,7 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
+        logo={frontmatter.logo}
         subheading={frontmatter.subheading}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -149,6 +143,13 @@ export const pageQuery = graphql`
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        logo {
+          childImageSharp {
+            fluid(maxWidth: 400, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
