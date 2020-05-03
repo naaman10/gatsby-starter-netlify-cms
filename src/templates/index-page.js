@@ -35,8 +35,9 @@ export const IndexPageTemplate = ({
         }}
       >
       <img
-        src={logo.childImageSharp.fluid.src}
+        src={logo.image.childImageSharp.fluid.src}
         className="homeLogo"
+        alt={logo.alt}
       />
       <h3
         className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -99,7 +100,7 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
-  logo: PropTypes.string,
+  logo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   subheading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -148,9 +149,12 @@ export const pageQuery = graphql`
           }
         }
         logo {
-          childImageSharp {
-            fluid(maxWidth: 400, quality: 100) {
-              ...GatsbyImageSharpFluid
+          alt
+          image {
+            childImageSharp {
+              fluid(maxWidth: 400, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }

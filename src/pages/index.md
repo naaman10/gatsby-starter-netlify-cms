@@ -2,7 +2,9 @@
 templateKey: index-page
 title: Manchester Paediatric Dentistry Student Society
 image: /img/dentist-home.jpeg
-logo: /img/orgtrans.png
+logo:
+  alt: MPDSS Logo
+  image: /img/orgtrans.png
 heading: Something Dentisty
 subheading: Educating children in oral health & delivering paeds dental talks
 description: >-
