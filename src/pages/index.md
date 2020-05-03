@@ -5,12 +5,12 @@ image: /img/dentist-home.jpeg
 logo:
   alt: MPDSS Logo
   image: /img/orgtrans.png
+  undefined: /img/orgtrans.png
 heading: Something Dentisty
 subheading: Educating children in oral health & delivering paeds dental talks
-description: >-
-  Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
-  potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis
-  per. Nisi sapien varius mauris morbi cubilia conubia.
+description: Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula.
+  Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
+  felis per. Nisi sapien varius mauris morbi cubilia conubia.
 intro:
   blurbs:
     - image: /img/tooth.png
