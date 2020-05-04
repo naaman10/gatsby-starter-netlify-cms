@@ -9,7 +9,7 @@ tags:
   - flavor
   - tasting
 ---
-![Hands in mouth ](/img/dentist-home.jpeg)
+![Hands in mouth](/img/dentist-home.jpeg)
 
 Taciti porta consequat integer massa parturient. Etiam blandit aptent ultricies condimentum. Placerat interdum dui commodo laoreet quam metus fermentum sit. Donec dictum natoque lectus tellus dui lobortis urna. Sit sociosqu felis inceptos turpis.
 
