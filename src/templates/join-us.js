@@ -148,6 +148,7 @@ export const productPageQuery = graphql`
                 }
               }
             }
+            name
             text
             link
             buttonText

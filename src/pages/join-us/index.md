@@ -10,6 +10,7 @@ description: Mus natoque fames tellus ante justo senectus massa aliquam
 intro:
   blurbs:
     - image: /img/coffee.png
+      name: Volunteering Officer
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
@@ -19,6 +20,7 @@ intro:
       link: https://docs.google.com/forms/d/e/1FAIpQLScn92sp-7Np-tWCm5g9loXMM9QPqTz_XUHQ0skJaSTbaCCtkg/viewform
       buttonText: Apply
     - image: /img/coffee-gear.png
+      name: Volunteering Officer
       text: >
         We offer a small, but carefully curated selection of brewing gear and
         tools for every taste and experience level. No matter if you roast your

@@ -17,6 +17,7 @@ const OpenPositions = ({ gridItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
+          <p className="is-size-4">{item.name}</p>
           <p>{item.text}</p>
           <a
           className="button"
@@ -33,7 +34,10 @@ OpenPositions.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      name: PropTypes.string,
       text: PropTypes.string,
+      link: PropTypes.string,
+      buttonText: PropTypes.string,
     })
   ),
 }
