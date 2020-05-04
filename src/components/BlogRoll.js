@@ -34,24 +34,24 @@ class BlogRoll extends React.Component {
                   ) : null}
 
                 </header>
-                <p className="post-meta">
+                <p className="title has-text-primary is-size-4">
                   <Link
-                    className="title has-text-primary is-size-4"
                     to={post.fields.slug}
                   >
                     {post.frontmatter.title}
                   </Link>
-                  <span> &bull; </span>
-                  <span className="subtitle is-size-5 is-block">
+                  </p>
+                  <p>
+                  <span className="is-size-7 is-block">
                     {post.frontmatter.date}
                   </span>
-                </p>
+                  </p>
                 <p>
                   {post.excerpt}
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Read More
                   </Link>
                 </p>
               </article>
