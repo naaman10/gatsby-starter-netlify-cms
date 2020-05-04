@@ -30,7 +30,7 @@ export const IndexPageTemplate = ({
           height: '150px',
           lineHeight: '1',
           justifyContent: 'space-around',
-          alignItems: 'left',
+          alignItems: 'center',
           flexDirection: 'column',
         }}
       >
@@ -44,8 +44,8 @@ export const IndexPageTemplate = ({
         style={{
           boxShadow:
             'rgba(252, 72, 104,1) -0.5rem 0px 0px',
-
-          color: 'white',
+          marginTop: '30px',
+          color: '#1B1B1B',
           lineHeight: '1',
           padding: '0.25em',
         }}

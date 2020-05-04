@@ -12,15 +12,18 @@ class BlogRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className={`is-parent column ${
+              post.frontmatter.featuredpost ? 'is-12' : 'is-4'
+            }`} key={post.id}>
+
               <article
-                className={`blog-list-item tile is-child box notification ${
+                className={`blog-list-item is-child box ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
                 <header>
                   {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+                    <div className="blogPreviewImage">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
@@ -29,19 +32,20 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
+
                 </header>
+                <p className="post-meta">
+                  <Link
+                    className="title has-text-primary is-size-4"
+                    to={post.fields.slug}
+                  >
+                    {post.frontmatter.title}
+                  </Link>
+                  <span> &bull; </span>
+                  <span className="subtitle is-size-5 is-block">
+                    {post.frontmatter.date}
+                  </span>
+                </p>
                 <p>
                   {post.excerpt}
                   <br />
