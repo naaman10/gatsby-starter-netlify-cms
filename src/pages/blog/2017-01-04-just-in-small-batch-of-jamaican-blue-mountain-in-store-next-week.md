@@ -5,7 +5,7 @@ date: 2020-05-01T10:13:27.840Z
 description: We’re proud to announce that we’ll be offering a small number of
   free check-ups for children.
 featuredpost: false
-featuredimage: /img/dentist-home.jpeg
+featuredimage: /img/tooths.jpeg
 tags:
   - tooth
   - dentist
