@@ -5,7 +5,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 const OpenPositions = ({ gridItems }) => (
   <div className="columns is-3">
     {gridItems.map(item => (
-      <div className="column is-one-quarter">
+      <div className="column ">
       <div className="card">
         <div className="card-image">
           <figure className="image is-marginless">
@@ -19,12 +19,6 @@ const OpenPositions = ({ gridItems }) => (
           </div>
           <a className="button is-fullwidth" target="_blank" href={item.link}>{item.buttonText}</a>
         </div>
-
-        <footer className="card-footer">
-          <div className="card-footer-item">
-
-          </div>
-        </footer>
       </div>
       </div>
     ))}
