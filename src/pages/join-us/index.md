@@ -17,7 +17,7 @@ intro:
       link: https://docs.google.com/forms/d/e/1FAIpQLScn92sp-7Np-tWCm5g9loXMM9QPqTz_XUHQ0skJaSTbaCCtkg/viewform
       buttonText: Apply
     - image: /img/800x480.png
-      name: Volunteering Officer
+      name: School Liaison Officer
       text: A School Liaison Officer will help to choose which primary schools we will
         contact to implement our scheme and they will also be tasked with
         contacting said schools. The School Liaison Officers will need to be
