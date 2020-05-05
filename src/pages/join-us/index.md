@@ -35,21 +35,24 @@ intro:
 
     A convallis dolor quam cras odio etiam tempus. Congue nisl efficitur euismod maximus per et himenaeos. Odio habitasse vulputate consequat parturient sagittis inceptos. Consequat proin arcu facilisis fames nisi vitae. Maecenas rhoncus ante mus est himenaeos purus duis velit.
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: Working with MPDSS
+  description: >-
+    Risus lorem odio lobortis phasellus metus felis morbi convallis diam.
+    Senectus si in tellus sit eu donec suscipit blandit. Massa potenti nec
+    conubia rhoncus ultrices malesuada. Curae donec efficitur per massa
+    vulputate elit fermentum consectetuer.
+
+
+    Pharetra tellus purus primis nisi pede parturient. Tempus fermentum condimentum mollis ullamcorper per blandit sit. Magnis viverra mauris est dui integer sit. Adipiscing ultrices ullamcorper scelerisque massa lobortis velit luctus purus bibendum.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: tooth inspection
+    image: /img/dentist-home.jpeg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: tooth torture device
+    image: /img/dentistsstuff.jpeg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: more tooth torture
+    image: /img/toooth.jpeg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: The first time I tried Kaldi’s coffee, I couldn’t even believe that was
