@@ -8,7 +8,7 @@ const OpenPositions = ({ gridItems }) => (
       <div className="column is-one-quarter">
       <div className="card">
         <div className="card-image">
-          <figure className="image is-5by3">
+          <figure className="image is-marginless">
             <PreviewCompatibleImage imageInfo={item} />
           </figure>
         </div>
