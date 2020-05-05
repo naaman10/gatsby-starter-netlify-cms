@@ -1,7 +1,7 @@
 ---
 templateKey: join-us
 title: Join Us
-image: /img/jumbotron.jpg
+image: /img/tooths.jpeg
 heading: Volunteer Vacancies
 description: Mus natoque fames tellus ante justo senectus massa aliquam
   vestibulum. Porta tortor ad cursus eros pharetra sociosqu. Viverra interdum
