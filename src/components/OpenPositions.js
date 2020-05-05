@@ -3,28 +3,29 @@ import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const OpenPositions = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className="columns is-3">
     {gridItems.map(item => (
-      <div key={item.text} className="column is-6">
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block',
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
-            </div>
+      <div className="column is-one-quarter">
+      <div className="card">
+        <div className="card-image">
+          <figure className="image is-5by3">
+            <PreviewCompatibleImage imageInfo={item} />
+          </figure>
+        </div>
+        <div className="card-content">
+          <p className="title is-4">{item.name}</p>
+          <div clasNames="content">
+            {item.text}
           </div>
-          <p className="is-size-4">{item.name}</p>
-          <p>{item.text}</p>
-          <a
-          className="button"
-          href={item.link}
-          >{item.buttonText}
-          </a>
-        </section>
+          <a className="button is-fullwidth" target="_blank" href={item.link}>{item.buttonText}</a>
+        </div>
+
+        <footer className="card-footer">
+          <div className="card-footer-item">
+
+          </div>
+        </footer>
+      </div>
       </div>
     ))}
   </div>
