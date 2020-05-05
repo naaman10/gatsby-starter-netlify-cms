@@ -9,24 +9,21 @@ description: Mus natoque fames tellus ante justo senectus massa aliquam
   nam parturient elementum.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/800x480.png
       name: Volunteering Officer
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+      text: A volunteering officer will help to recruit student volunteers and assign
+        them sessions to participate in. You will have access to a list of
+        students who wish to volunteer as well as their stated availability.
       link: https://docs.google.com/forms/d/e/1FAIpQLScn92sp-7Np-tWCm5g9loXMM9QPqTz_XUHQ0skJaSTbaCCtkg/viewform
       buttonText: Apply
-    - image: /img/coffee-gear.png
+    - image: /img/800x480.png
       name: Volunteering Officer
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-      link: https://docs.google.com/forms/d/e/1FAIpQLScn92sp-7Np-tWCm5g9loXMM9QPqTz_XUHQ0skJaSTbaCCtkg/viewform
+      text: A School Liaison Officer will help to choose which primary schools we will
+        contact to implement our scheme and they will also be tasked with
+        contacting said schools. The School Liaison Officers will need to be
+        very responsive via e-mail and be able to visit or talk over the phone
+        to school officials when required.
+      link: https://docs.google.com/forms/d/e/1FAIpQLSe31Vvv37gf6kWR4CubG3VLEc5MAbHE5-hs92R7Pwc_Ft53yQ/viewform
       buttonText: Apply
   heading: Volunteer Vacancies
   description: >
