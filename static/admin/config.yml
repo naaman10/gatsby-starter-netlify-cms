@@ -51,6 +51,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "About Section", name: about, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Intro, name: intro, widget: string}, {label: Image, name: image, widget: image}, {label: text, name: Text, widget: text}]}
       - file: "src/pages/join-us/index.md"
         label: "Join Us"
         name: "join-us"

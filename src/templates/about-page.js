@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import FeatureRight from '../components/FeatureRight'
 
 
 
-export const AboutPageTemplate = ({ title, content, image, contentComponent }) => {
+export const AboutPageTemplate = ({ title, content, image, about, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -30,6 +31,7 @@ export const AboutPageTemplate = ({ title, content, image, contentComponent }) =
           {title}
         </h2>
       </div>
+      <FeatureRight gridItems={about} />
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
@@ -53,6 +55,7 @@ AboutPageTemplate.propTypes = {
   image: PropTypes.string,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
+  about: PropTypes.array,
 }
 
 const AboutPage = ({ data }) => {
@@ -65,6 +68,7 @@ const AboutPage = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
         image={post.frontmatter.image}
+        about={post.frontmatter.about}
       />
     </Layout>
   )
@@ -81,15 +85,27 @@ export const aboutPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
+      title
+      image {
+        childImageSharp {
+          fluid(maxWidth: 2048, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      about {
         title
+        intro
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 240, quality: 64) {
               ...GatsbyImageSharpFluid
             }
           }
         }
+        text
       }
+    }
     }
   }
 `
