@@ -4,12 +4,12 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const FeatureRight = ({ gridItems }) => (
 
-  <div className="column features-box has-background-white is-hidden-tablet is-hidden-desktop ">
+  <div className="column features-box has-background-white">
   {gridItems.map(item => (
     <>
     <div className="columns">
 
-      <div className="column is-4 is-offset-1 has-margin-top-auto has-margin-bottom-auto">
+      <div className="column is-4 is-offset-1 has-margin-top-auto has-margin-bottom-auto frVC">
         <div className="title">
           <p className="has-text-black is-family-secondary has-text-weight-bold">{item.title}</p>
           <span className="is-size-5">{item.intro}</span>
