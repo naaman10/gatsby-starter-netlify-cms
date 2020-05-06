@@ -4,26 +4,32 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const FeatureRight = ({ gridItems }) => (
 
-  <div className="column is-10 is-offset-1 columns has-background-white features-box is-hidden-mobile">
+  <div className="column features-box has-background-white is-hidden-tablet is-hidden-desktop ">
   {gridItems.map(item => (
-    <div>
-    <div className="column is-4 is-offset-1 has-margin-top-auto has-margin-bottom-auto">
-      <div className="title">
-        <p className="has-text-black is-family-secondary has-text-weight-bold">{item.title}</p>
-        <span className="is-size-5">{item.intro}</span>
+    <>
+    <div className="columns">
+
+      <div className="column is-4 is-offset-1 has-margin-top-auto has-margin-bottom-auto">
+        <div className="title">
+          <p className="has-text-black is-family-secondary has-text-weight-bold">{item.title}</p>
+          <span className="is-size-5">{item.intro}</span>
+        </div>
+      </div>
+      <div className="column is-5 is-offset-1">
+        <figure className="image">
+          <PreviewCompatibleImage imageInfo={item.image} />
+        </figure>
       </div>
     </div>
-    <div className="column is-5 is-offset-1">
-      <figure className="image">
-        <PreviewCompatibleImage imageInfo={item.image} />
-      </figure>
+
+    <div className="column is-10 is-offset-1">
+      <p className="has-text-black is-family-secondary">{item.text}</p>
     </div>
-    <div className="column is-12">
-      <p className="has-text-black is-family-secondary has-text-weight-bold">{item.text}</p>
-    </div>
-    </div>
+    </>
+
     ))}
   </div>
+
 )
 
 FeatureRight.propTypes = {
