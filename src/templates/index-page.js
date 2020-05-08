@@ -63,7 +63,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <FeatureCards featureItems={features.features} />
+                <FeatureCards featureItems={features.featureItems} />
               </div>
               <div className="content">
                 <div className="columns">
@@ -184,7 +184,7 @@ export const pageQuery = graphql`
         description
       }
       features {
-        features {
+        featureItems {
           image {
             childImageSharp {
               fluid(maxWidth : 60, quality : 64) {

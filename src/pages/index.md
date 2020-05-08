@@ -39,7 +39,7 @@ intro:
     per. Nisi sapien varius mauris morbi cubilia conubia.
 features:
   heading: I am a...
-  features:
+  featureItems:
     - image: /img/001-mortarboard.png
       title: Dental Student
       text: Our Society offers a vast range of opportunities for dental and oral health science students to get involved in the world of Paediatric dentistry. Click below to find out more about the opportunities open to you.
