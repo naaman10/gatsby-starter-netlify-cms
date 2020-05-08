@@ -37,6 +37,16 @@ intro:
     Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
     potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis
     per. Nisi sapien varius mauris morbi cubilia conubia.
+  features:
+    - image: /img/tooth.png
+      title: Some dummy text 1
+      text: Some Dummy Text
+    - image: /img/tooth.png
+      title: This Title 2
+      text: Some dummy text 2
+    - image: /img/tooth.png
+      title: This Title 3
+      text: Some dummy text 3
 main:
   heading: Great coffee with no compromises
   description: >

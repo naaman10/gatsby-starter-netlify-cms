@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import FeatureCards from '../components/FeatureCards'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
@@ -60,6 +61,9 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
+                <FeatureCards featureItems={intro.features} />
+              </div>
+              <div className="content">
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
@@ -68,6 +72,7 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
+
                 <Features gridItems={intro.blurbs} />
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
@@ -98,6 +103,7 @@ IndexPageTemplate.propTypes = {
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
+    features: PropTypes.array,
   }),
 }
 
@@ -163,6 +169,17 @@ export const pageQuery = graphql`
                 }
               }
             }
+            text
+          }
+          features {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            title
             text
           }
           heading
