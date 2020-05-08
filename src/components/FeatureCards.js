@@ -5,9 +5,10 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 const FeatureCards = ({ featureItems }) => (
   <div className="columns is-multiline">
     {featureItems.map(item => (
+
       <div key={item.text} className="column is-4">
-        <section className="section">
-          <div className="has-text-centered">
+        <div className="card">
+          <div className="card-image has-text-centered">
             <div
               style={{
                 width: '240px',
@@ -17,8 +18,11 @@ const FeatureCards = ({ featureItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p>{item.text}</p>
-        </section>
+          <div className="card-content">
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
+          </div>
+        </div>
       </div>
     ))}
   </div>
