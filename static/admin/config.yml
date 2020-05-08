@@ -11,6 +11,8 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+logo_url: /img/orgtrans.png
+
 collections:
   - name: "blog"
     label: "Blog"
@@ -41,7 +43,7 @@ collections:
           - {label: Subheading, name: subheading, widget: string}
           - {label: Description, name: description, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Features, name: features, widget: object, fields: [{ label: Features Items, name: featureItems, widget: object, fields: [{ label: Image, name: image, widget image }, { label: Title, name: title, widget: string }, { label: Text, name: text, widget: text }, { label: Link, name: link, widget: string }, { label: Link Text, name: linkText, widget: string }], {label: Heading, name: heading, widget: string}]}
+          - {label: Features, name: features, widget: object, fields: [{label: Heading, name: heading, widget: string}, { label: Features Items, name: featureItems, widget: object, fields: [{ label: Image, name: image, widget image }, { label: Title, name: title, widget: string }, { label: Text, name: text, widget: text }, { label: Link, name: link, widget: string }, { label: Link Text, name: linkText, widget: string }]}]}
           - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
           - {label: Logo, name: logo, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
       - file: "src/pages/about/index.md"
