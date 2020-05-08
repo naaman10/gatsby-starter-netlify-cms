@@ -11,14 +11,14 @@ const FeatureCards = ({ featureItems }) => (
           <div className="card-image has-text-centered">
             <div
               style={{
-                width: '240px',
+                width: '120px',
                 display: 'inline-block',
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <div className="card-content">
+          <div className="card-content has-text-centered">
             <h3>{item.title}</h3>
             <p>{item.text}</p>
           </div>
@@ -33,6 +33,8 @@ FeatureCards.propTypes = {
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       text: PropTypes.string,
+      title: PropTypes.string,
+      heading: PropTypes.string,
     })
   ),
 }

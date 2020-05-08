@@ -15,6 +15,7 @@ export const IndexPageTemplate = ({
   subheading,
   description,
   intro,
+  features,
 }) => (
   <div>
     <div
@@ -61,7 +62,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <FeatureCards featureItems={intro.features} />
+                <FeatureCards featureItems={features.features} />
               </div>
               <div className="content">
                 <div className="columns">
@@ -103,6 +104,8 @@ IndexPageTemplate.propTypes = {
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
+  }),
+  features: PropTypes.shape({
     features: PropTypes.array,
   }),
 }
@@ -120,6 +123,7 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        features={frontmatter.features}
       />
     </Layout>
   )
@@ -137,55 +141,62 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      frontmatter {
-        title
+  markdownRemark(frontmatter : {
+    templateKey: {
+      eq: "index-page"
+    }
+  }) {
+    frontmatter {
+      title
+      image {
+        childImageSharp {
+          fluid(maxWidth : 2048, quality : 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      logo {
+        alt
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth : 400, quality : 100) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        logo {
-          alt
+      }
+      heading
+      subheading
+      description
+      intro {
+        blurbs {
           image {
             childImageSharp {
-              fluid(maxWidth: 400, quality: 100) {
+              fluid(maxWidth : 240, quality : 64) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
+          text
         }
         heading
-        subheading
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
+      }
+      features {
+        features {
+          image {
+            childImageSharp {
+              fluid(maxWidth : 60, quality : 64) {
+                ...GatsbyImageSharpFluid
               }
             }
-            text
           }
-          features {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            title
-            text
-          }
-          heading
-          description
+          title
+          text
         }
+        heading
       }
     }
   }
+}
 `

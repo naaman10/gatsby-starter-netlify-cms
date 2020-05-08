@@ -37,14 +37,16 @@ intro:
     Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
     potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui felis
     per. Nisi sapien varius mauris morbi cubilia conubia.
+features:
+  heading: I am a...
   features:
-    - image: /img/tooth.png
+    - image: /img/001-mortarboard.png
       title: Dental Student
       text: Our Society offers a vast range of opportunities for dental and oral health science students to get involved in the world of Paediatric dentistry. Click this link to find out more about the opportunities open to you.
-    - image: /img/tooth.png
+    - image: /img/002-education.png
       title: Primary School Representative
       text: One of the core aims of MPDSS is to implement oral health education sessions within local primary schools. Click this link If you would like to find out more about the sessions that we run and how your school can get involved.
-    - image: /img/tooth.png
+    - image: /img/003-family.png
       title: Parent or Caregiver
       text: It is imperative that parents and caregivers are kept in the loop when it comes to their child’s oral health education. It is important that caregivers know that their child is being educated by a safe and reputable organisation. Click this link to find out about how our society prioritises child safety and furthering education outside of the classroom.
 main:
