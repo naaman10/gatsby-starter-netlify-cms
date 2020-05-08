@@ -21,6 +21,7 @@ const FeatureCards = ({ featureItems }) => (
           <div className="card-content has-text-centered">
             <h3>{item.title}</h3>
             <p>{item.text}</p>
+            <a href="{item.link}" className="btn">{item.linkText}</a>
           </div>
         </div>
       </div>

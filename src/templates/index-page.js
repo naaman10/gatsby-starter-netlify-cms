@@ -194,6 +194,8 @@ export const pageQuery = graphql`
           }
           title
           text
+          link
+          linkText
         }
         heading
       }
