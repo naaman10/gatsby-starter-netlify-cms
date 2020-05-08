@@ -54,6 +54,7 @@ export const IndexPageTemplate = ({
       >
         {subheading}
       </h3>
+      <h3><span class="tag is-light">{features.heading}</span></h3>
       </div>
     </div>
     <section className="section section--gradient">
