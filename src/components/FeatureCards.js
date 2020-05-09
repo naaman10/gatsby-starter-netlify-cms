@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-const FeatureCards = ({ featureItems }) => (
+const FeatureCards = ({ featuredItems }) => (
   <div className="columns is-multiline">
-    {featureItems.map(item => (
+    {featuredItems.map(item => (
 
       <div key={item.text} className="column is-4">
         <div className="card">
@@ -21,7 +21,7 @@ const FeatureCards = ({ featureItems }) => (
           <div className="card-content has-text-centered">
             <h3>{item.title}</h3>
             <p>{item.text}</p>
-            <a href="{item.link}" className="btn">{item.linkText}</a>
+            <a href={item.link} className="btn">{item.linkText}</a>
           </div>
         </div>
       </div>
@@ -30,12 +30,14 @@ const FeatureCards = ({ featureItems }) => (
 )
 
 FeatureCards.propTypes = {
-  featureItems: PropTypes.arrayOf(
+  featuredItems: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       text: PropTypes.string,
       title: PropTypes.string,
       heading: PropTypes.string,
+      link: PropTypes.string,
+      linkText: PropTypes.string,
     })
   ),
 }
