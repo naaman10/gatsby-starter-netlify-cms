@@ -2,9 +2,6 @@
 templateKey: index-page
 title: Manchester Paediatric Dentistry Student Society
 image: /img/dentist-home.jpeg
-logo:
-  alt: MPDSS Logo
-  image: /img/orgtrans.png
 heading: Our Mission
 subheading: Educating children in oral health & delivering paeds dental talks
 description: Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula.
@@ -43,20 +40,31 @@ features:
     - image: /img/001-mortarboard.png
       title: Dental Student
       text: >
-        Our Society offers a vast range of opportunities for dental and oral health science students to get involved in the world of Paediatric dentistry. Click below to find out more about the opportunities open to you.
-      link: /about
+        Our Society offers a vast range of opportunities for dental and oral
+        health science students to get involved in the world of Paediatric
+        dentistry. Click below to find out more about the opportunities open to
+        you.
+      link: /dental-students
       linkText: Find Out More
     - image: /img/002-education.png
       title: Primary School Representative
       text: >
-        One of the core aims of MPDSS is to implement oral health education sessions within local primary schools. Click below If you would like to find out more about the sessions that we run and how your school can get involved.  
-      link: /about
+        One of the core aims of MPDSS is to implement oral health education
+        sessions within local primary schools. Click below If you would like to
+        find out more about the sessions that we run and how your school can get
+        involved.  
+      link: /primary-schools
       linkText: Find Out More
     - image: /img/003-family.png
       title: Parent or Caregiver
       text: >
-        It is imperative that parents and caregivers are kept in the loop when it comes to their child’s oral health education. It is important that caregivers know that their child is being educated by a safe and reputable organisation. Click below to find out about how our society prioritises child safety and furthering education outside of the classroom.
-      link: /about
+        It is imperative that parents and caregivers are kept in the loop when
+        it comes to their child’s oral health education. It is important that
+        caregivers know that their child is being educated by a safe and
+        reputable organisation. Click below to find out about how our society
+        prioritises child safety and furthering education outside of the
+        classroom.
+      link: /parents-and-caregivers
       linkText: Find Out More
 main:
   heading: Great coffee with no compromises
@@ -74,4 +82,7 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+logo:
+  alt: MPDSS Logo
+  image: /img/orgtrans.png
 ---
