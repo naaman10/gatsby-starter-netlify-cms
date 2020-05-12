@@ -38,7 +38,7 @@ export const IndexPageTemplate = ({
       >
       <img
         src={logo.image.childImageSharp.fluid.src}
-        className="homeLogo"
+        className="homeLogo animate__animated anitmate__slideInRight"
         alt={logo.alt}
       />
       <h3

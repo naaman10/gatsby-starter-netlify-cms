@@ -54,10 +54,6 @@ h3,h4,h5,h6
   min-height: 5.25rem !important
   background-color: $mpdss-beige !important
 
-.navbar-brand
-  width: 7rem !important
-
-
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -203,3 +199,11 @@ $menu-label-color: $white-ter
   .blog-list-item .blogPreviewImage
     text-align: center;
     margin: 0 0 1em;
+  .navbar-menu.is-active
+    height: 100vh !important
+    background-color: $mpdss-beige
+    .navbar-start
+      height: 75vh
+      display: flex
+      flex-direction: column
+      justify-content: space-around

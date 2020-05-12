@@ -60,7 +60,7 @@ const Navbar = class extends React.Component {
           </div>
           <div
             id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`navbar-menu ${this.state.navBarActiveClass} animate__animated anitmate__slideInRight`}
           >
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/about">

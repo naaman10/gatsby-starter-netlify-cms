@@ -18,6 +18,10 @@ const TemplateWrapper = ({ children }) => {
           href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+        />
 
         <link
           rel="apple-touch-icon"

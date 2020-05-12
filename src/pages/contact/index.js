@@ -36,10 +36,26 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+        <div
+          className="full-width-image-container margin-top-0"
+          style={{
+            backgroundImage: "url('/img/dentistsstuff.jpeg')",
+            backgroundPosition: '0, 20px',
+          }}
+        >
+          <h2
+            className="has-text-weight-bold is-size-1"
+            style={{
+              color: 'white',
+              padding: '1rem',
+            }}
+          >
+            Contact
+          </h2>
+        </div>
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
               <form
                 name="contact"
                 method="post"
