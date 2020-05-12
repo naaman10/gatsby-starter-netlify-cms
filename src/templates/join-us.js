@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import OpenPositions from '../components/OpenPositions'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import ScrollSpy from '../components/ScrollSpy'
+import ContentMain from '../components/ContentMain'
+
 
 export const ProductPageTemplate = ({
   image,
@@ -11,6 +12,7 @@ export const ProductPageTemplate = ({
   heading,
   description,
   intro,
+  scrollSection,
   main,
 }) => (
   <div className="content">
@@ -36,46 +38,14 @@ export const ProductPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-7 is-offset-1">
-              <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
+            <div className="column is-2">
+              <ScrollSpy scrollItems={scrollSection} />
             </div>
-          </div>
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <OpenPositions gridItems={intro.blurbs} />
-              <div className="columns">
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-3">
-                    {main.heading}
-                  </h3>
-                  <p>{main.description}</p>
-                </div>
-              </div>
-              <div className="tile is-ancestor">
-                <div className="tile is-vertical">
-                  <div className="tile">
-                    <div className="tile is-parent is-vertical">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image1} />
-                      </article>
-                    </div>
-                    <div className="tile is-parent">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image2} />
-                      </article>
-                    </div>
-                  </div>
-                  <div className="tile is-parent">
-                    <article className="tile is-child">
-                      <PreviewCompatibleImage imageInfo={main.image3} />
-                    </article>
-                  </div>
-                </div>
-              </div>
+
+              <ContentMain content={main} />
+
           </div>
         </div>
-      </div>
       </div>
     </section>
   </div>
@@ -89,13 +59,12 @@ ProductPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
-  main: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  scrollSection: PropTypes.shape({
+    scrollItems: PropTypes.array,
   }),
+  main: PropTypes.shape({
+    content: PropTypes.array,
+}),
 }
 
 const ProductPage = ({ data }) => {
@@ -109,6 +78,7 @@ const ProductPage = ({ data }) => {
         heading={frontmatter.heading}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        scrollSection={frontmatter.scrollSection}
         main={frontmatter.main}
       />
     </Layout>
@@ -156,40 +126,21 @@ export const productPageQuery = graphql`
           heading
           description
         }
-        main {
+        scrollSection {
           heading
-          description
-          image1 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image2 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image3 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+          scrollItems {
+            link
+            linkText
           }
         }
+        main {
+          content {
+            heading
+            description
+            link
+
+        }
+      }
       }
     }
   }

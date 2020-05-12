@@ -21,6 +21,9 @@ $black: #2b2523
 $lato: 'Lato', sans-serif
 $fredoka: 'Fredoka One', cursive
 
+html
+  scroll-behavior: smooth
+
 h1,h2
   font-family: $fredoka
 
@@ -141,13 +144,17 @@ $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $white-ter
 
-
+.menu
+  position: -webkit-sticky
+  position: sticky
+  top: 0
 .menu-label
   font-size: 1em !important
   text-align: left
 .menu-list
   list-style: none !important
   text-align: left
+  margin-left: 0 !important
 .social
   padding: 2em
 .social a
@@ -178,6 +185,12 @@ $menu-label-color: $white-ter
   text-align: center
   width: 240px
   height: auto
+.featureTag
+  font-size: 1rem !important
+  margin-top: 1.5rem !important
+  border-radius: 30px !important
+  padding-left: 2em !important
+  padding-right: 2em !important
 
 
 // responsiveness

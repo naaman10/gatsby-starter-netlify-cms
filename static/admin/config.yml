@@ -14,26 +14,11 @@ public_folder: /img
 local_backend: true
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
-
   - name: "pages"
     label: "Pages"
     files:
       - file: "src/pages/index.md"
-        label: "Landing Page"
+        label: "Home Page"
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
@@ -55,14 +40,53 @@ collections:
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "About Section", name: about, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Intro, name: intro, widget: string}, {label: Image, name: image, widget: image}, {label: text, name: Text, widget: text}]}
-      - file: "src/pages/join-us/index.md"
-        label: "Join Us"
-        name: "join-us"
+      - file: "src/pages/dental-students/index.md"
+        label: "Dental Students"
+        name: "dental-students"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: string}
+          - {label: Menu, name: scrollSection, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Scroll Items, name: scrollItems, widget: list, fields: [{label: Link, name: link, widget: string }, {label: Link Text, name: linkText, widget: string }]}]}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Position Name, name: name, widget: string}, {label: Text, name: text, widget: text}, {label: Link, name: link, widget: string}, {label: Button Text, name: buttonText, widget: string}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: Main, name: main, widget: object, fields: [{label: Content, name: content, widget: list, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: markdown}, {label: Link, name: link, widget: string}]}]}
+      - file: "src/pages/primary-schools/index.md"
+        label: "Primary Schools"
+        name: "primary-schools"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Menu, name: scrollSection, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Scroll Items, name: scrollItems, widget: list, fields: [{label: Link, name: link, widget: string }, {label: Link Text, name: linkText, widget: string }]}]}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Position Name, name: name, widget: string}, {label: Text, name: text, widget: text}, {label: Link, name: link, widget: string}, {label: Button Text, name: buttonText, widget: string}]}]}
+          - {label: Main, name: main, widget: object, fields: [{label: Content, name: content, widget: list, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: markdown}, {label: Link, name: link, widget: string}]}]}
+      - file: "src/pages/parents-and-caregivers/index.md"
+        label: "Parents and Caregivers"
+        name: "parents-and-caregivers"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Menu, name: scrollSection, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Scroll Items, name: scrollItems, widget: list, fields: [{label: Link, name: link, widget: string }, {label: Link Text, name: linkText, widget: string }]}]}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Position Name, name: name, widget: string}, {label: Text, name: text, widget: text}, {label: Link, name: link, widget: string}, {label: Button Text, name: buttonText, widget: string}]}]}
+          - {label: Main, name: main, widget: object, fields: [{label: Content, name: content, widget: list, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: markdown}, {label: Link, name: link, widget: string}]}]}
+  - name: "blog"
+    label: "Blog"
+    folder: "src/pages/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}

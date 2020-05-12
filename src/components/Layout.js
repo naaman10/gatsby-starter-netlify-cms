@@ -12,7 +12,7 @@ const TemplateWrapper = ({ children }) => {
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
+      <title>{title}</title>
         <meta name="description" content={description} />
         <link
           href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato&display=swap"

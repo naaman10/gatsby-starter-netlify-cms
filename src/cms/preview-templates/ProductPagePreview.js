@@ -5,7 +5,8 @@ import { ProductPageTemplate } from '../../templates/join-us'
 const ProductPagePreview = ({ entry, getAsset }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
-
+  const entryContent = entry.getIn(['data', 'main', 'content'])
+  const content = entryContent ? entryContent.toJS() : []
   return (
     <ProductPageTemplate
       image={entry.getIn(['data', 'image'])}
@@ -13,22 +14,7 @@ const ProductPagePreview = ({ entry, getAsset }) => {
       heading={entry.getIn(['data', 'heading'])}
       description={entry.getIn(['data', 'description'])}
       intro={{ blurbs }}
-      main={{
-        heading: entry.getIn(['data', 'main', 'heading']),
-        description: entry.getIn(['data', 'main', 'description']),
-        image1: {
-          image: getAsset(entry.getIn(['data', 'main', 'image1', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image1', 'alt']),
-        },
-        image2: {
-          image: getAsset(entry.getIn(['data', 'main', 'image2', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image2', 'alt']),
-        },
-        image3: {
-          image: getAsset(entry.getIn(['data', 'main', 'image3', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image3', 'alt']),
-        },
-      }}
+      main={{ content }}
     />
   )
 }

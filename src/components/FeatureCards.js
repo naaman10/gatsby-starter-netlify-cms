@@ -13,6 +13,7 @@ const FeatureCards = ({ featuredItems }) => (
               style={{
                 width: '120px',
                 display: 'inline-block',
+                padding: '10px',
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />

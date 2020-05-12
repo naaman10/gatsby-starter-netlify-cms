@@ -58,7 +58,7 @@ export const AboutPageTemplate = ({ title, content, image, about, contentCompone
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  image: PropTypes.string,
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   about: PropTypes.array,

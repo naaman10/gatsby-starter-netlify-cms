@@ -54,7 +54,7 @@ export const IndexPageTemplate = ({
       >
         {subheading}
       </h3>
-      <h3><span class="tag is-light">{features.heading}</span></h3>
+      <h3><a href="#featureSection"><span class="tag is-light featureTag">{features.heading}</span></a></h3>
       </div>
     </div>
     <section className="section section--gradient">
@@ -62,7 +62,7 @@ export const IndexPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <div className="content">
+              <div className="content" id="featureSection">
                 <FeatureCards featuredItems={features.featuredItems} />
               </div>
               <div className="content">
