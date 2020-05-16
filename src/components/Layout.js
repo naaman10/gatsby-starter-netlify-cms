@@ -22,7 +22,15 @@ const TemplateWrapper = ({ children }) => {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
         />
+        <link
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-
+awesome.min.css"
+          rel="stylesheet"
+          integrity="sha384-
+wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
 
+          crossorigin="anonymous" />
+          <script src="https://kit.fontawesome.com/c26d8f910e.js" crossorigin="anonymous"></script>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -40,14 +48,7 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/favicon-16x16.png`}
           sizes="16x16"
         />
-
-        <link
-          rel="mask-icon"
-          href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
-          color="#ff4400"
-        />
         <meta name="theme-color" content="#fff" />
-
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />

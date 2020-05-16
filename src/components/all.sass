@@ -151,6 +151,12 @@ $menu-label-color: $white-ter
   list-style: none !important
   text-align: left
   margin-left: 0 !important
+  li
+    i
+      float: right
+      display: none
+.menu-list li:hover i
+  display: inline
 .social
   padding: 2em
 .social a
@@ -188,6 +194,38 @@ $menu-label-color: $white-ter
   padding-left: 2em !important
   padding-right: 2em !important
 
+.profile-card
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  border-radius: 10px
+  .profile-card-image img
+    border-top-left-radius: 10px
+    border-top-right-radius: 10px
+    border-bottom-left-radius: 0px
+    border-bottom-right-radius: 0px
+    .gatsby-image-wrapper
+      border-radius: 0px !important
+  .profile-card-body
+    padding: 10px
+    text-align: center
+  .profile-card-heading
+    margin-bottom: .4em
+  .profile-card-subheading
+    font-weight: 600
+  .profile-card-footer
+    padding-top: 10px
+    padding-bottom: 10px
+.socialList
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  text-align: center
+  .socialListItem
+    width: 100%
+    height: 100%
+    font-size: 1.75rem
+
+.content-image
+  text-align: center
 
 // responsiveness
 +tablet-only
@@ -203,7 +241,7 @@ $menu-label-color: $white-ter
     height: 100vh !important
     background-color: $mpdss-beige
     .navbar-start
-      height: 75vh
+      height: 60vh
       display: flex
       flex-direction: column
       justify-content: space-around

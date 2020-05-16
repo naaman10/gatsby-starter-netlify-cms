@@ -36,10 +36,13 @@ collections:
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "About Section", name: about, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Intro, name: intro, widget: string}, {label: Image, name: image, widget: image}, {label: text, name: Text, widget: text}]}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Menu, name: scrollSection, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Scroll Items, name: scrollItems, widget: list, fields: [{label: Link, name: link, widget: string }, {label: Link Text, name: linkText, widget: string }]}]}
+          - {label: How We Work, name: weWork, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Content, name: content, widget: markdown}, {link: Link, name: link, widget: string}]}
+          - { label: Our Committee, name: ourCommittee, widget: object, fields: [{ label: Heading, name: heading, widget: string }, { label: Intro, name: intro, widget: markdown }, { label: Link, name: link, widget: string }, { label: Members, name: members, widget: list, fields: [{ label: Name, name: name, widget: string }, { label: Role, name: role, widget: string }, { label: Bio, name: bio, widget: text }, { label: Image, name: image, widget: image }, { label: Social, name: social, widget: list, fields: [{ label: Link, name: Link, widget: string }, { label: Source, name: source, widget: select, options: [{label: Twitter, value: twitter}, {label: Facebook, value: facebook}, {label: Instagram, value: instagram}]}]}]}]}
       - file: "src/pages/dental-students/index.md"
         label: "Dental Students"
         name: "dental-students"

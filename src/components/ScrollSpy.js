@@ -8,7 +8,7 @@ const ScrollSpy = ({ scrollItems }) => (
           {scrollItems.scrollItems.map(item => (
 
 
-          <li><a href={item.link}>{item.linkText}</a></li>
+          <li><a href={item.link}>{item.linkText} <i class="fas fa-arrow-right"></i></a></li>
 
 
         ))}

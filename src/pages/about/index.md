@@ -1,24 +1,68 @@
 ---
 templateKey: about-page
 title: About MPDSS
-image: /img/dentistsstuff.jpeg
-about:
-  - title: About mpdss
-    intro: Coffee is a small tree or shrub that grows
-    image: /img/dentistsstuff.jpeg
-    text: Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+image: /img/tooths.jpeg
+heading: About
+description: Not really using these on this page.
+scrollSection:
+  heading: Menu
+  scrollItems:
+    - link: "#how-we-work"
+      linkText: How We Work
+    - link: "#our-committee"
+      linkText: Our Committee
+    - link: "#school-testimonials"
+      linkText: School Testimonials
+weWork:
+  heading: How Work
+  link: how-we-work
+  content: >-
+    Finibus non morbi platea viverra. Consectetur purus duis magnis eleifend
+    sociosqu pharetra montes libero. Hendrerit iaculis ut pretium nisl. Aliquam
+    commodo turpis auctor viverra libero. Luctus vehicula condimentum nascetur
+    aliquet ut.
+
+
+    ![tooth diagram](/img/a73a980f472a92e14f0c400ef4f30ab5.jpg)
+
+
+    In dis tortor adipiscing hac suscipit eros aliquet ante. Litora venenatis taciti justo aliquet vel ante posuere nisi egestas. Ultrices conubia curae placerat nec consequat nunc laoreet sagittis. Scelerisque etiam mi nisi pellentesque accumsan sociosqu.
+
+
+    Rhoncus lacus pulvinar aptent sodales arcu dolor commodo. Lacinia eleifend sodales mauris scelerisque finibus dis mattis maximus rhoncus. Convallis sapien mattis tempus in cras curabitur ridiculus venenatis volutpat.
+ourCommittee:
+  members:
+    - name: Yasmin Egonu
+      role: Masterchief
+      image: /img/yas.jpg
+      bio: Dui nullam donec tortor ridiculus quis. Dictum quisque per eleifend
+        natoque. Augue id tellus suscipit sit maecenas cubilia leo dui amet. A
+        amet quis nulla urna pede magna vehicula. Nec senectus turpis conubia
+        vulputate phasellus scelerisque.
+      social:
+        - Link: https://www.facebook.com/
+          source: facebook
+        - Link: https://www.instagram.com/
+          source: instagram
+        - Link: https://www.twitter.com/
+          source: twitter
+    - name: Yas Egon2
+      role: Testing
+      bio: Non ligula tempus malesuada sollicitudin per tortor. In justo sem morbi
+        tempus congue. Blandit porta class tellus ac. Amet interdum in quis
+        adipiscing facilisi sodales hendrerit. Posuere efficitur dignissim
+        parturient habitant tincidunt pretium elementum.
+      image: /img/yas.jpg
+      social:
+        - Link: https://www.facebook.com/
+          source: facebook
+        - Link: https://www.instagram.com/
+          source: instagram
+        - Link: https://www.twitter.com/
+          source: twitter
+  heading: Our Committee
+  intro: Venenatis taciti feugiat magnis maecenas euismod hac nibh leo. Nulla
+    fames dolor mi tempor curae quis congue maximus odio. Fringilla dignissim
+    himenaeos nec posuere. Maximus mattis arcu quis aliquam ac.
+  link: our-committee
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
-
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
-
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
