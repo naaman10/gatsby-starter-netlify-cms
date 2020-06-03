@@ -3,7 +3,8 @@ templateKey: index-page
 title: Manchester Paediatric Dentistry Student Society
 image: /img/dentist-home.jpeg
 heading: Our Mission
-subheading: Educating children in oral health & delivering paeds dental talks
+subheading: Educating children in oral health & delivering paediatric dental
+  education to dental students
 description: Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula.
   Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
   felis per. Nisi sapien varius mauris morbi cubilia conubia.
