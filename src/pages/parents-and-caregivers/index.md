@@ -1,7 +1,7 @@
 ---
 templateKey: join-us
 title: Parents and Caregivers
-image: /img/vivek-kumar-a-_1ppjnbug-unsplash.jpg
+image: /img/stock-photo-a-mother-hugging-her-little-girl-754282018.jpg
 heading: Volunteer Vacancies
 description: Mus natoque fames tellus ante justo senectus massa aliquam
   vestibulum. Porta tortor ad cursus eros pharetra sociosqu. Viverra interdum
