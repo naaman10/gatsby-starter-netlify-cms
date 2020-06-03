@@ -82,7 +82,7 @@ export const IndexPageTemplate = ({
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
+                    <Link className="btn is-large" to="/blog">
                       Read more
                     </Link>
                   </div>
@@ -191,6 +191,7 @@ export const pageQuery = graphql`
                 ...GatsbyImageSharpFluid
               }
             }
+            publicURL
           }
           title
           text

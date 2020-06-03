@@ -11,12 +11,12 @@ const FeatureCards = ({ featuredItems }) => (
           <div className="card-image has-text-centered">
             <div
               style={{
-                width: '120px',
+                width: '200px',
                 display: 'inline-block',
                 padding: '10px',
               }}
             >
-              <PreviewCompatibleImage imageInfo={item} />
+              <img src={item.image.publicURL} />
             </div>
           </div>
           <div className="card-content has-text-centered">

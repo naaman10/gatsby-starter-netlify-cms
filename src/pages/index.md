@@ -9,22 +9,22 @@ description: Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula.
   felis per. Nisi sapien varius mauris morbi cubilia conubia.
 intro:
   blurbs:
-    - image: /img/tooth.png
+    - image: /img/undraw_screen_time_vkev.png
       text: >
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
         potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
         felis per. Nisi sapien varius mauris morbi cubilia conubia.
-    - image: /img/tooth.png
+    - image: /img/undraw_exams_g4ow.png
       text: >
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
         potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
         felis per. Nisi sapien varius mauris morbi cubilia conubia.
-    - image: /img/tooth.png
+    - image: /img/undraw_children_4rtb.png
       text: >
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
         potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
         felis per. Nisi sapien varius mauris morbi cubilia conubia.
-    - image: /img/tooth.png
+    - image: /img/undraw_our_solution_htvp.png
       text: >
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
         potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
@@ -37,7 +37,7 @@ intro:
 features:
   heading: I am a...
   featuredItems:
-    - image: /img/001-mortarboard.png
+    - image: /img/undraw_graduation_ktn0.svg
       title: Dental Student
       text: >
         Our Society offers a vast range of opportunities for dental and oral
@@ -46,7 +46,7 @@ features:
         you.
       link: /dental-students
       linkText: Find Out More
-    - image: /img/002-education.png
+    - image: /img/undraw_teaching_f1cm.svg
       title: Primary School Representative
       text: >
         One of the core aims of MPDSS is to implement oral health education
@@ -55,7 +55,7 @@ features:
         involved.  
       link: /primary-schools
       linkText: Find Out More
-    - image: /img/003-family.png
+    - image: /img/undraw_quality_time_wiyl.svg
       title: Parent or Caregiver
       text: >
         It is imperative that parents and caregivers are kept in the loop when
