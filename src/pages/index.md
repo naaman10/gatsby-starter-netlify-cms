@@ -12,7 +12,7 @@ description: "MPDSS is a new society created by Manchester University dental
   Keep reading for more information:"
 intro:
   blurbs:
-    - image: /img/undraw_screen_time_vkev.png
+    - image: /img/undraw_children_4rtb.png
       text: >-
         One of the core aims of our society is to deliver oral health education
         sessions to primary schools in the Manchester area. "Oral health
