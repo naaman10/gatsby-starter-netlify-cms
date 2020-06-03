@@ -32,11 +32,12 @@ intro:
 
 
 
-    - image: /img/undraw_children_4rtb.png
-      text: >
-        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
-        potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
-        felis per. Nisi sapien varius mauris morbi cubilia conubia.
+    - image: /img/undraw_quiz_nlyh.png
+      text: "Being able to chart mixed dentition easily is a refined skill and dental
+        students can often worry about their competency in regards to this task.
+        - This is why our society aims to create and deliver a mixed dentition
+        course to dental students (of all year groups) at the University of
+        Manchester. "
     - image: /img/undraw_our_solution_htvp.png
       text: >
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
