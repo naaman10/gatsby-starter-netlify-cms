@@ -3,8 +3,7 @@ templateKey: index-page
 title: Manchester Paediatric Dentistry Student Society
 image: /img/dentist-home.jpeg
 heading: Our Mission
-subheading: Educating children in oral health & delivering paediatric dental
-  education to dental students
+subheading: Educating children in oral health & delivering paediatric dental education
 description: "MPDSS is a new society created by Manchester University dental
   students. More than 1 in 3 five year olds across Greater Manchester experience
   tooth decay – well above the England national average of 25%. Our society aims
