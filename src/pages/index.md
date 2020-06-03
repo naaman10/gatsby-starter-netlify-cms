@@ -25,10 +25,10 @@ intro:
     - image: /img/undraw_candidate_ubwv.png
       text: >+
         Another aim of our society is to invite specialists in the field of
-        paediatric dentistry to deliver talks to Manchester dental students.
-
-
-        We also find it imperative that dental students are given the opportunity to gain early exposure to paediatric dentistry. Traditionally, dental students in Manchester are exposed to paediatric dentistry in their 4th year of dental school. And so, it is an aim to enable students to explore this subject in their earlier years in the hopes that it will foster interest in paediatric dentistry and help to create well-rounded dentists.   
+        paediatric dentistry to deliver talks to Manchester dental students. We
+        find it imperative that dental students are given the opportunity to
+        gain early exposure to paediatric dentistry in order to foster interest
+        in the speciality and to help them become well-rounded dentists.   
 
 
 
