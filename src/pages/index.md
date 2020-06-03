@@ -52,7 +52,7 @@ features:
         you.
       link: /dental-students
       linkText: Find Out More
-    - image: /img/undraw_teaching_f1cm.svg
+    - image: /img/undraw_teacher_35j2.png
       title: Primary School Representative
       text: >
         One of the core aims of MPDSS is to implement oral health education
