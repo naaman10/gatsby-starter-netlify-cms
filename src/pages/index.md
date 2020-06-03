@@ -19,7 +19,7 @@ intro:
         education" entails the exploration of many topics. In our primary school
         sessions we aim to cover: what a healthy diet is, how to take care of
         your mouth, and what to expect when visiting the dentist.
-    - image: /img/undraw_candidate_ubwv.png
+    - image: /img/undraw_candidate_ubwv-2.png
       text: >+
         Another aim of our society is to invite specialists in the field of
         paediatric dentistry to deliver talks to Manchester dental students. We
