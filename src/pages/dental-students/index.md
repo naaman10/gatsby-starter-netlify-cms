@@ -1,7 +1,7 @@
 ---
 templateKey: join-us
 title: Dental Students
-image: /img/tooths.jpeg
+image: /img/bantersnaps-9o8ydygtt64-unsplash.jpg
 heading: Volunteer Vacancies
 description: Mus natoque fames tellus ante justo senectus massa aliquam
   vestibulum. Porta tortor ad cursus eros pharetra sociosqu. Viverra interdum
