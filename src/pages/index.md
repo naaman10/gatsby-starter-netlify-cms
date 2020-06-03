@@ -21,7 +21,7 @@ intro:
         your mouth, and what to expect when visiting the dentist.
 
 
-        We co-ordinate primary school sessions which are run by dental student volunteers and committee members. We work very hard to ensure that all the activities that we deliver are age appropriate to the class that we are teaching and we offer the schools to tailor the sessions to suit their pupils. 
+        We work very hard to ensure that all the activities that we deliver are age appropriate to the class that we are teaching and we offer the schools to tailor the sessions to suit their pupils. 
     - image: /img/undraw_candidate_ubwv.png
       text: >+
         Another aim of our society is to invite specialists in the field of
