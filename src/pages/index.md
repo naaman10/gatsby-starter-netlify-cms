@@ -61,7 +61,7 @@ features:
         involved.  
       link: /primary-schools
       linkText: Find Out More
-    - image: /img/undraw_quality_time_wiyl.svg
+    - image: /img/undraw_quality_time_wiyl.png
       title: Parent or Caregiver
       text: >
         It is imperative that parents and caregivers are kept in the loop when
