@@ -22,11 +22,16 @@ intro:
 
 
         We co-ordinate primary school sessions which are run by dental student volunteers and committee members. We work very hard to ensure that all the activities that we deliver are age appropriate to the class that we are teaching and we offer the schools to tailor the sessions to suit their pupils. 
-    - image: /img/undraw_exams_g4ow.png
-      text: >
-        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
-        potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
-        felis per. Nisi sapien varius mauris morbi cubilia conubia.
+    - image: /img/undraw_candidate_ubwv.png
+      text: >+
+        Another aim of our society is to invite specialists in the field of
+        paediatric dentistry to deliver talks to Manchester dental students.
+
+
+        We also find it imperative that dental students are given the opportunity to gain early exposure to paediatric dentistry. Traditionally, dental students in Manchester are exposed to paediatric dentistry in their 4th year of dental school. And so, it is an aim to enable students to explore this subject in their earlier years in the hopes that it will foster interest in paediatric dentistry and help to create well-rounded dentists.   
+
+
+
     - image: /img/undraw_children_4rtb.png
       text: >
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
