@@ -29,7 +29,7 @@ intro:
 
 
 
-    - image: /img/undraw_quiz_nlyh.png
+    - image: /img/undraw_doctors_hwty.png
       text: "Being able to chart mixed dentition easily is a refined skill and dental
         students can often worry about their competency in regards to this task.
         - This is why our society aims to create and deliver a mixed dentition
