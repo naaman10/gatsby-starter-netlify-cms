@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: About MPDSS
-image: /img/tooths.jpeg
+image: /img/nick-fewings-bpdjlwz_bog-unsplash.jpg
 heading: About
 description: Not really using these on this page.
 scrollSection:
