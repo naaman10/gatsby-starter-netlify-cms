@@ -5,9 +5,11 @@ image: /img/dentist-home.jpeg
 heading: Our Mission
 subheading: Educating children in oral health & delivering paediatric dental
   education to dental students
-description: Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula.
-  Pede potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
-  felis per. Nisi sapien varius mauris morbi cubilia conubia.
+description: MPDSS is a new society created by Manchester University dental
+  students. More than 1 in 3 five year olds across Greater Manchester experience
+  tooth decay – well above the England national average of 25%. Our society aims
+  to educate children in the local area about oral health. We also arrange
+  specialist dental talks and courses to aid the learning of dental students.
 intro:
   blurbs:
     - image: /img/undraw_screen_time_vkev.png
