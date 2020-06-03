@@ -9,7 +9,7 @@ const Committee = ({ committeeData }) => (
       source={committeeData.intro}
       escapeHtml={false}
     />
-  <div className="columns">
+  <div className="columns space-evenly">
     {committeeData.members.map(item => (
       <div className="column is-3">
         <div className="profile-card">

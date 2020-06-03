@@ -65,4 +65,19 @@ ourCommittee:
     fames dolor mi tempor curae quis congue maximus odio. Fringilla dignissim
     himenaeos nec posuere. Maximus mattis arcu quis aliquam ac.
   link: our-committee
+testimonialSection:
+  heading: School Testimonials
+  intro: >-
+    Venenatis taciti feugiat magnis maecenas euismod hac nibh leo. Nulla fames
+    dolor mi tempor curae quis congue maximus odio. Fringilla dignissim
+    himenaeos nec posuere. Maximus mattis arcu quis aliquam ac.
+
+
+    Another paragraph just to make it even longer. How much more can I add to the paragraph before I run out of ideas? Is it one sentence more, or even two, I don't know if I have anymore.
+  link: school-testimonials
+  testimonials:
+    - quote: Venenatis taciti feugiat magnis maecenas
+      source: Naaman Hudson
+      school: Salford Quays
+  name: school-testimonials
 ---

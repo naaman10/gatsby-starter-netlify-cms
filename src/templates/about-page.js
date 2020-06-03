@@ -5,6 +5,8 @@ import Layout from '../components/Layout'
 import ScrollSpy from '../components/ScrollSpy'
 import Committee from '../components/Committee'
 import WeWork from '../components/WeWork'
+import Testimonial from '../components/Testimonial'
+
 
 
 export const AboutPageTemplate = ({
@@ -16,6 +18,7 @@ export const AboutPageTemplate = ({
   main,
   ourCommittee,
   weWork,
+  testimonialSection,
 }) => (
   <div className="content">
     <div
@@ -46,6 +49,7 @@ export const AboutPageTemplate = ({
             <div className="column is-10">
               <WeWork weWorkData={weWork} />
               <Committee committeeData={ourCommittee} />
+              <Testimonial testiData={testimonialSection} />
             </div>
           </div>
         </div>
@@ -73,6 +77,12 @@ AboutPageTemplate.propTypes = {
     link: PropTypes.string,
     content: PropTypes.string,
   }),
+  testimonialSection: PropTypes.shape({
+    heading: PropTypes.string,
+    intro: PropTypes.string,
+    link: PropTypes.string,
+    testimonials: PropTypes.array,
+  }),
 }
 
 const AboutPage = ({ data }) => {
@@ -89,6 +99,7 @@ const AboutPage = ({ data }) => {
         main={frontmatter.main}
         ourCommittee={frontmatter.ourCommittee}
         weWork={frontmatter.weWork}
+        testimonialSection={frontmatter.testimonialSection}
       />
     </Layout>
   )
@@ -105,31 +116,33 @@ AboutPage.propTypes = {
 export default AboutPage
 
 export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      frontmatter {
-        title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
+query AboutPage($id: String!) {
+  markdownRemark(id: {
+    eq: $id
+  }) {
+    frontmatter {
+      title
+      image {
+        childImageSharp {
+          fluid(maxWidth: 2048, quality: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
+      }
+      heading
+      description
+      scrollSection {
         heading
-        description
-        scrollSection {
-          heading
-          scrollItems {
-            link
-            linkText
-          }
+        scrollItems {
+          link
+          linkText
         }
-        main {
-          content {
-            heading
-            description
-            link
+      }
+      main {
+        content {
+          heading
+          description
+          link
 
         }
       }
@@ -159,7 +172,17 @@ export const aboutPageQuery = graphql`
         link
         content
       }
+      testimonialSection {
+        heading
+        intro
+        link
+        testimonials {
+          quote
+          source
+          school
+        }
       }
     }
   }
+}
 `

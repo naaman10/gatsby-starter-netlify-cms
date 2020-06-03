@@ -10,7 +10,7 @@ const AboutPagePreview = ({ entry, widgetFor }) => (
     image={entry.getIn(['data', 'image'])}
     content={widgetFor('body')}
     about={entry.getIn(['data', 'about'])}
-
+    
   />
 )
 
