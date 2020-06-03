@@ -13,15 +13,12 @@ description: "MPDSS is a new society created by Manchester University dental
 intro:
   blurbs:
     - image: /img/undraw_children_4rtb.png
-      text: >-
+      text: >
         One of the core aims of our society is to deliver oral health education
         sessions to primary schools in the Manchester area. "Oral health
         education" entails the exploration of many topics. In our primary school
         sessions we aim to cover: what a healthy diet is, how to take care of
         your mouth, and what to expect when visiting the dentist.
-
-
-        We work very hard to ensure that all the activities that we deliver are age appropriate to the class that we are teaching and we offer the schools to tailor the sessions to suit their pupils. 
     - image: /img/undraw_candidate_ubwv.png
       text: >+
         Another aim of our society is to invite specialists in the field of
