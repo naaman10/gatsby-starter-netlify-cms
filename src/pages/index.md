@@ -14,10 +14,15 @@ description: MPDSS is a new society created by Manchester University dental
 intro:
   blurbs:
     - image: /img/undraw_screen_time_vkev.png
-      text: >
-        Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
-        potenti suspendisse consectetur lacinia faucibus feugiat. Sit nam dui
-        felis per. Nisi sapien varius mauris morbi cubilia conubia.
+      text: >-
+        One of the core aims of our society is to deliver oral health education
+        sessions to primary schools in the Manchester area. "Oral health
+        education" entails the exploration of many topics. In our primary school
+        sessions we aim to cover: what a healthy diet is, how to take care of
+        your mouth, and what to expect when visiting the dentist.
+
+
+        We co-ordinate primary school sessions which are run by dental student volunteers and committee members. We work very hard to ensure that all the activities that we deliver are age appropriate to the class that we are teaching and we offer the schools to tailor the sessions to suit their pupils. 
     - image: /img/undraw_exams_g4ow.png
       text: >
         Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede
