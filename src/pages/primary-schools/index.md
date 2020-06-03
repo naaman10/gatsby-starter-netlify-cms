@@ -1,7 +1,7 @@
 ---
 templateKey: join-us
 title: Primary Schools
-image: /img/tooths.jpeg
+image: /img/stock-photo-male-teacher-reading-story-to-group-of-elementary-pupils-wearing-uniform-in-school-classroom-1448056133.jpg
 heading: Volunteer Vacancies
 description: Mus natoque fames tellus ante justo senectus massa aliquam
   vestibulum. Porta tortor ad cursus eros pharetra sociosqu. Viverra interdum
