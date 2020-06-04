@@ -86,6 +86,9 @@ main:
         comfrotable treating paediatric patients.
 
 
+        ![](/img/panoramic-radiograph-showing-patients-dentition-in-the-mixed-dentition-phase-with.png)
+
+
         Our course is being created by the President (Yasmin) and Vice President (Sabina), along with the expertise and assistance of Dr. Siobhan Barry - an experienced paediaric consultatnt at the University Dental Hospital of Manchester.
 
 
