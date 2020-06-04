@@ -16,10 +16,14 @@ scrollSection:
 weWork:
   heading: How We Work
   link: how-we-work
-  content: Our committee have worked tirelessly over the Summer to coordinate
-    primary school sessions and events which are carefully designed with our
-    target audience in mind. We have also collaborated with specialists within
-    the relevant dental fields to create these events.
+  content: >-
+    Our committee have worked tirelessly over the Summer to coordinate primary
+    school sessions and events which are carefully designed with our target
+    audience in mind. We have also collaborated with specialists within the
+    relevant dental fields to create these events. 
+
+
+    Various members of our committee contact schools and speakers directly in order to arrange educational sessions with them, however, we also welcome approach from schools and speakers that/who are interested in getting involved with our society.
 ourCommittee:
   members:
     - name: Yasmin Egonu
@@ -60,7 +64,7 @@ ourCommittee:
     well as talks and courses for dental students. 
 
 
-    Please see our committee to discover our individual roles:
+    Please see our committee below and discover our individual roles:
   link: our-committee
 testimonialSection:
   heading: School Testimonials
