@@ -17,19 +17,15 @@ weWork:
   heading: How We Work
   link: how-we-work
   content: >-
-    Finibus non morbi platea viverra. Consectetur purus duis magnis eleifend
-    sociosqu pharetra montes libero. Hendrerit iaculis ut pretium nisl. Aliquam
-    commodo turpis auctor viverra libero. Luctus vehicula condimentum nascetur
-    aliquet ut.
+    Our committee is compromised of 14 students from various year groups and we
+    all work together to deliver fun and informative primary school sessions, as
+    well as informational talks and courses for dental students. 
 
 
-    ![tooth diagram](/img/a73a980f472a92e14f0c400ef4f30ab5.jpg)
+    We convene every week to coordinate primary school sessions and events which are carefully designed with our target audience in mind. We also collaborate with specialist within relevant dental fields to create these events. 
 
 
-    In dis tortor adipiscing hac suscipit eros aliquet ante. Litora venenatis taciti justo aliquet vel ante posuere nisi egestas. Ultrices conubia curae placerat nec consequat nunc laoreet sagittis. Scelerisque etiam mi nisi pellentesque accumsan sociosqu.
-
-
-    Rhoncus lacus pulvinar aptent sodales arcu dolor commodo. Lacinia eleifend sodales mauris scelerisque finibus dis mattis maximus rhoncus. Convallis sapien mattis tempus in cras curabitur ridiculus venenatis volutpat.
+    Please see our committee to discover our individual roles:
 ourCommittee:
   members:
     - name: Yasmin Egonu
