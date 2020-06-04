@@ -78,17 +78,19 @@ main:
         We welcome any speaker/topic suggestions from current students!
 
 
-        We are making plans for these talks to be delivered in person, however, if this is not possible (due to the COVID-19 situation) then we will aim to deliver the talks online. Either way, we will ensure that the talks are enagaing and informative.
+        We are making plans for these talks to be delivered in person, however, if this is not possible (due to the COVID-19 situation) then we will aim to deliver the talks online. Either way, we will ensure that the talks are both enagaing and informative.
     - heading: Our Mixed Dentition Course
       link: mixed-dentition-course
       description: >-
-        Risus lorem odio lobortis **phasellus metus** felis morbi convallis
-        diam. Senectus si in tellus sit eu donec suscipit blandit. Massa potenti
-        nec conubia rhoncus ultrices malesuada.
+        Charting mixed dentition can be a daunting task for dental students -
+        and even some qualified dentists! The variability in mixed dentition can
+        make the task of charting, in a limited amount of time, confusing. We
+        would like to improve the confidence dental students so that they feel
+        comfrotable treating paediatric patients.
 
 
-        Curae donec efficitur per massa vulputate elit fermentum consectetuer. Pharetra tellus purus primis nisi pede parturient. Tempus fermentum condimentum mollis ullamcorper per blandit sit.
+        Our course is being created by the President (Yasmin) and Vice President (Sabina), along with the expertise and assistance of Dr. Siobhan Barry - an experienced paediaric consultatnt at the University Dental Hospital of Manchester.
 
 
-        Magnis viverra mauris est dui integer sit. Adipiscing ultrices ullamcorper scelerisque massa lobortis velit luctus purus bibendum.
+        More information to follow!
 ---
