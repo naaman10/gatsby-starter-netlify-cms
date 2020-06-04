@@ -42,15 +42,12 @@ main:
   content:
     - heading: Opportunities for students
       description: >-
-        Risus lorem odio lobortis phasellus metus felis morbi convallis diam.
-        Senectus si in tellus sit eu donec suscipit blandit. Massa potenti nec
-        conubia rhoncus ultrices malesuada.
+        We offer a range of events and opportunities for Manchester dental
+        students. We hope to share our passion for paediatric dentistry with as
+        many students as possible!
 
 
-        Curae donec efficitur per massa vulputate elit fermentum consectetuer. Pharetra tellus purus primis nisi pede parturient. Tempus fermentum condimentum mollis ullamcorper per blandit sit.
-
-
-        Magnis viverra mauris est dui integer sit. Adipiscing ultrices ullamcorper scelerisque massa lobortis velit luctus purus bibendum.
+        Scroll down to read more about how you can get involved with our society!
       link: opportunities-for-students
     - heading: Becoming a volunteer
       description: >-
