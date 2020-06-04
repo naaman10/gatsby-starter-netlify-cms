@@ -72,10 +72,10 @@ main:
         understanding of the speciality. 
 
 
-        We welcome any speaker/topic suggestions from current students!
+        We welcome any speaker/topic suggestions from current students! Suggestions can be sent to mpdss@gmail.com to be picked up by our Speakers Co-ordinator (Saif).
 
 
-        We are making plans for these talks to be delivered in person, however, if this is not possible (due to the COVID-19 situation) then we will aim to deliver the talks online. Either way, we will ensure that the talks are both enagaing and informative.
+        We are making plans for these talks to be delivered in person, however, if this is not possible (due to the COVID-19 situation) then we will aim to deliver the talks online. Either way, we will ensure that the talks are both engaging and informative.
     - heading: Our Mixed Dentition Course
       link: mixed-dentition-course
       description: >-
