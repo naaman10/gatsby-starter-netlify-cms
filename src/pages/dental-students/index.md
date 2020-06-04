@@ -42,9 +42,9 @@ main:
   content:
     - heading: Opportunities for students
       description: >-
-        We offer a range of events and opportunities for Manchester dental
-        students. We hope to share our passion for paediatric dentistry with as
-        many students as possible!
+        We offer a range of events and opportunities for Manchester dental and
+        oral health science students. We hope to share our passion for
+        paediatric dentistry with as many students as possible!
 
 
         Scroll down to read more about how you can get involved with our society!
@@ -52,12 +52,12 @@ main:
     - heading: Becoming a volunteer
       description: >-
         Volunteers are vital for the running of our primary school sessions.
-        Currently, we are only accepting Manchester University dental students
-        into the volunteering workforce as we require all of our volunteers to
-        have had an advanced DBS check.
+        Currently, we are only accepting Manchester University dental and oral
+        health science students into the volunteering workforce as we require
+        all of our volunteers to have had an advanced DBS check.
 
 
-        As we are a new society, we aim to start our oral health education sessions in a limited number of schools. Once we have established which aspects of our sessions work or could be improved, we will then expand our sessions to more primary schools in the Manchester area. 
+        As we are a new society, we aim to start our oral health education sessions in a limited number of schools. Once we have established which aspects of our sessions work well/could be improved; we will then expand our sessions to more primary schools in the Manchester area. 
 
 
         Therefore, there will be a limited number of volunteer vacancies in our first year of operation. We will advertise all volunteering vacancies on this website and on social media - please keep an eye out!
@@ -65,11 +65,11 @@ main:
     - heading: Paediatric Specialist Talks
       link: paediatric-specialist-talks
       description: >-
-        We are very excited to organise a host of talks for dental students,
-        delivered by respected paediatric dentists! This is a great way for
-        students to learn more about the specilaity; which can introduce them to
-        the speciality earlier on in their course or aid their pre-exisitng
-        understanding of the speciality. 
+        We are very excited to organise a host of talks for dental and oral
+        health science students; delivered by respected paediatric dentists!
+        This is a great way for students to learn more about the specilaity;
+        which can introduce them to the speciality earlier on in their course or
+        aid their pre-exisitng understanding of the speciality. 
 
 
         We welcome any speaker/topic suggestions from current students! Suggestions can be sent to mpdss@gmail.com to be picked up by our Speakers Co-ordinator (Saif).
@@ -79,11 +79,12 @@ main:
     - heading: Our Mixed Dentition Course
       link: mixed-dentition-course
       description: >-
-        Charting mixed dentition can be a daunting task for dental students -
-        and even some qualified dentists! The variability in mixed dentition can
-        make the task of charting, in a limited amount of time, confusing. We
-        would like to improve the confidence of dental students so that they
-        feel comfortable treating paediatric patients.
+        Charting mixed dentition can be a daunting task for dental and oral
+        health science students - and even some qualified dentists! The
+        variability in mixed dentition can make the task of charting, in a
+        limited amount of time, confusing. We would like to improve the
+        confidence of dental students so that they feel comfortable treating
+        paediatric patients.
 
 
         ![](/img/panoramic-radiograph-showing-patients-dentition-in-the-mixed-dentition-phase-with.png)
