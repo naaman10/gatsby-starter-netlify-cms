@@ -82,8 +82,8 @@ main:
         Charting mixed dentition can be a daunting task for dental students -
         and even some qualified dentists! The variability in mixed dentition can
         make the task of charting, in a limited amount of time, confusing. We
-        would like to improve the confidence dental students so that they feel
-        comfrotable treating paediatric patients.
+        would like to improve the confidence of dental students so that they
+        feel comfortable treating paediatric patients.
 
 
         ![](/img/panoramic-radiograph-showing-patients-dentition-in-the-mixed-dentition-phase-with.png)
