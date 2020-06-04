@@ -14,7 +14,7 @@ scrollSection:
     - link: "#school-testimonials"
       linkText: School Testimonials
 weWork:
-  heading: How Work
+  heading: How We Work
   link: how-we-work
   content: >-
     Finibus non morbi platea viverra. Consectetur purus duis magnis eleifend
