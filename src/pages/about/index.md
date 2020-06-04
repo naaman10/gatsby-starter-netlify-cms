@@ -16,16 +16,10 @@ scrollSection:
 weWork:
   heading: How We Work
   link: how-we-work
-  content: >-
-    Our committee is compromised of 14 students from various year groups and we
-    all work together to deliver fun and informative primary school sessions, as
-    well as informational talks and courses for dental students. 
-
-
-    We convene every week to coordinate primary school sessions and events which are carefully designed with our target audience in mind. We also collaborate with specialist within relevant dental fields to create these events. 
-
-
-    Please see our committee to discover our individual roles:
+  content: Our committee have worked tirelessly over the Summer to coordinate
+    primary school sessions and events which are carefully designed with our
+    target audience in mind. We have also collaborated with specialists within
+    the relevant dental fields to create these events.
 ourCommittee:
   members:
     - name: Yasmin Egonu
@@ -60,9 +54,13 @@ ourCommittee:
         - Link: https://www.twitter.com/
           source: twitter
   heading: Our Committee
-  intro: Venenatis taciti feugiat magnis maecenas euismod hac nibh leo. Nulla
-    fames dolor mi tempor curae quis congue maximus odio. Fringilla dignissim
-    himenaeos nec posuere. Maximus mattis arcu quis aliquam ac.
+  intro: >-
+    Our committee is compromised of 14 students from various year groups and we
+    all work together to deliver fun and informative primary school sessions, as
+    well as talks and courses for dental students. 
+
+
+    Please see our committee to discover our individual roles:
   link: our-committee
 testimonialSection:
   heading: School Testimonials
