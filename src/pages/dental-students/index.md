@@ -64,15 +64,16 @@ main:
       link: opportunities-for-students
     - heading: Becoming a volunteer
       description: >-
-        Risus lorem odio lobortis phasellus metus felis morbi convallis diam.
-        Senectus si in tellus sit eu donec suscipit blandit. Massa potenti nec
-        conubia rhoncus ultrices malesuada.
+        Volunteers are vital to help with the running of our primary school
+        sessions. Currently, we are only accepting Manchester University dental
+        students into the volunteering workforce as we require all of our
+        volunteers to have had an advanced DBS check.
 
 
-        Curae donec efficitur per massa vulputate elit fermentum consectetuer. Pharetra tellus purus primis nisi pede parturient. Tempus fermentum condimentum mollis ullamcorper per blandit sit.
+        As we are a new society, we aim to start our oral health education sessions in a limited number of schools. Once we have established which aspects of our sessions work or could be improved, we will then expand our sessions to more primary schools in the Manchester area. 
 
 
-        Magnis viverra mauris est dui integer sit. Adipiscing ultrices ullamcorper scelerisque massa lobortis velit luctus purus bibendum.
+        Therefore, there will be a limited number of volunteer vacancies in our first year of operation. We will advertise all volunteering vacancies on this website and on social media - please keep an eye out!
       link: becoming-a-volunteer
     - heading: Paediatric Specialist Talks
       link: paediatric-specialist-talks
