@@ -29,19 +29,22 @@ weWork:
 ourCommittee:
   members:
     - name: Yasmin Egonu
-      role: Masterchief
-      image: /img/yas.jpg
-      bio: Dui nullam donec tortor ridiculus quis. Dictum quisque per eleifend
-        natoque. Augue id tellus suscipit sit maecenas cubilia leo dui amet. A
-        amet quis nulla urna pede magna vehicula. Nec senectus turpis conubia
-        vulputate phasellus scelerisque.
+      role: Founder and President
+      image: /img/100604343_3530083057008970_8820866041384009728_n.jpg
+      bio: >-
+        Firstly, I would like to give a warm welcome to any visitors to this
+        website!
+
+        My name is Yasmin and I am in my second year of dental schools at the University of Manchester. I set up MPDSS after identifying that I had (and still have) a vested interest in paediatric dentistry; but there were not many opportunities for me to learn about this speciality until later years. 
+
+
+        I am committed to preventative dentistry and improving the oral health of students in the Manchester area. In particular, I have wanted to focus on educating primary school students from lower socioeconomic backgrounds. I also have the aim of being able to open up the world of paediatric dentistry to any dental student at my University who is interested in learning more. 
+
+
+        I am thoroughly excited to see where we can take this society and I look forward to leading the committee.
       social:
-        - Link: https://www.facebook.com/
-          source: facebook
-        - Link: https://www.instagram.com/
+        - Link: https://www.instagram.com/odontodoodles/
           source: instagram
-        - Link: https://www.twitter.com/
-          source: twitter
     - name: Yas Egon2
       role: Testing
       bio: Non ligula tempus malesuada sollicitudin per tortor. In justo sem morbi
