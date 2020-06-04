@@ -37,14 +37,17 @@ intro:
       link: https://docs.google.com/forms/d/e/1FAIpQLSe31Vvv37gf6kWR4CubG3VLEc5MAbHE5-hs92R7Pwc_Ft53yQ/viewform
       buttonText: Apply
   heading: Volunteer Vacancies
-  description: >
-    Mus natoque fames tellus ante justo senectus massa aliquam vestibulum. Porta
-    tortor ad cursus eros pharetra sociosqu. Viverra interdum diam nisi proin
-    lacus. Integer volutpat potenti blandit commodo consectetuer nam parturient
-    elementum.
+  description: >-
+    Volunteers are vital to help with the running of our primary school
+    sessions. Currently, we are only accepting Manchester University dental
+    students into the volunteering workforce as we require all of our volunteers
+    to have had an advanced DBS check.
 
 
-    A convallis dolor quam cras odio etiam tempus. Congue nisl efficitur euismod maximus per et himenaeos. Odio habitasse vulputate consequat parturient sagittis inceptos. Consequat proin arcu facilisis fames nisi vitae. Maecenas rhoncus ante mus est himenaeos purus duis velit.
+    As we are a new society, we aim to start our oral health education sessions in a limited number of schools. Once we have established which aspects of our sessions work or could be improved, we will then expand our sessions to more primary schools in the Manchester area. 
+
+
+    Therefore, there will be a limited number of volunteer vacancies in our first year of operation. We will advertise all volunteering vacancies on this website and on social media - please keep an eye out!
 main:
   content:
     - heading: Opportunities for students
