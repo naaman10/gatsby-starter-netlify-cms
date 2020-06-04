@@ -51,10 +51,10 @@ main:
       link: opportunities-for-students
     - heading: Becoming a volunteer
       description: >-
-        Volunteers are vital to help with the running of our primary school
-        sessions. Currently, we are only accepting Manchester University dental
-        students into the volunteering workforce as we require all of our
-        volunteers to have had an advanced DBS check.
+        Volunteers are vital for the running of our primary school sessions.
+        Currently, we are only accepting Manchester University dental students
+        into the volunteering workforce as we require all of our volunteers to
+        have had an advanced DBS check.
 
 
         As we are a new society, we aim to start our oral health education sessions in a limited number of schools. Once we have established which aspects of our sessions work or could be improved, we will then expand our sessions to more primary schools in the Manchester area. 
