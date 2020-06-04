@@ -67,7 +67,7 @@ main:
       description: >-
         We are very excited to organise a host of talks for dental students,
         delivered by respected paediatric dentists! This is a great way for
-        sutdents to learn more about the specilaity, which can introduce them to
+        students to learn more about the specilaity; which can introduce them to
         the speciality earlier on in their course or aid their pre-exisitng
         understanding of the speciality. 
 
