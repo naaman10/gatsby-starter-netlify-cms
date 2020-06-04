@@ -37,17 +37,7 @@ intro:
       link: https://docs.google.com/forms/d/e/1FAIpQLSe31Vvv37gf6kWR4CubG3VLEc5MAbHE5-hs92R7Pwc_Ft53yQ/viewform
       buttonText: Apply
   heading: Volunteer Vacancies
-  description: >-
-    Volunteers are vital to help with the running of our primary school
-    sessions. Currently, we are only accepting Manchester University dental
-    students into the volunteering workforce as we require all of our volunteers
-    to have had an advanced DBS check.
-
-
-    As we are a new society, we aim to start our oral health education sessions in a limited number of schools. Once we have established which aspects of our sessions work or could be improved, we will then expand our sessions to more primary schools in the Manchester area. 
-
-
-    Therefore, there will be a limited number of volunteer vacancies in our first year of operation. We will advertise all volunteering vacancies on this website and on social media - please keep an eye out!
+  description: erg erg
 main:
   content:
     - heading: Opportunities for students
@@ -78,15 +68,17 @@ main:
     - heading: Paediatric Specialist Talks
       link: paediatric-specialist-talks
       description: >-
-        Risus lorem odio lobortis phasellus metus felis morbi convallis diam.
-        Senectus si in tellus sit eu donec suscipit blandit. Massa potenti nec
-        conubia rhoncus ultrices malesuada.
+        We are very excited to organise a host of talks for dental students,
+        delivered by respected paediatric dentists! This is a great way for
+        sutdents to learn more about the specilaity, which can introduce them to
+        the speciality earlier on in their course or aid their pre-exisitng
+        understanding of the speciality. 
 
 
-        Curae donec efficitur per massa vulputate elit fermentum consectetuer. Pharetra tellus purus primis nisi pede parturient. Tempus fermentum condimentum mollis ullamcorper per blandit sit.
+        We welcome any speaker/topic suggestions from current students!
 
 
-        Magnis viverra mauris est dui integer sit. Adipiscing ultrices ullamcorper scelerisque massa lobortis velit luctus purus bibendum.
+        We are making plans for these talks to be delivered in person, however, if this is not possible (due to the COVID-19 situation) then we will aim to deliver the talks online. Either way, we will ensure that the talks are enagaing and informative.
     - heading: Our Mixed Dentition Course
       link: mixed-dentition-course
       description: >-
