@@ -43,13 +43,14 @@ ourCommittee:
       social:
         - Link: https://www.instagram.com/odontodoodles/
           source: instagram
-    - name: Yas Egon2
-      role: Testing
-      bio: Non ligula tempus malesuada sollicitudin per tortor. In justo sem morbi
-        tempus congue. Blandit porta class tellus ac. Amet interdum in quis
-        adipiscing facilisi sodales hendrerit. Posuere efficitur dignissim
-        parturient habitant tincidunt pretium elementum.
-      image: /img/yas.jpg
+    - name: Hadiya Begum
+      role: Secretary
+      bio: Hi everyone! My name is Hadiya and I’m the secretary for the MPDSS. As the
+        secretary my role will be to take minutes at meetings and ensure that
+        all ideas and plans are noted down. I’m really looking forward to being
+        a part of the MPDSS and I can’t wait to work with the children and also
+        the other members of the committee!
+      image: /img/hadiya.jpg
       social:
         - Link: https://www.facebook.com/
           source: facebook
