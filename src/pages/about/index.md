@@ -40,9 +40,7 @@ ourCommittee:
 
 
         I am thoroughly excited to see where we can take this society and I look forward to leading the committee.
-      social:
-        - Link: https://www.instagram.com/odontodoodles/
-          source: instagram
+      social: []
     - name: Hadiya Begum
       role: Secretary
       bio: Hi everyone! My name is Hadiya and I’m the secretary for the MPDSS. As the
