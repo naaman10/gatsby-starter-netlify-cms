@@ -51,13 +51,7 @@ ourCommittee:
         a part of the MPDSS and I can’t wait to work with the children and also
         the other members of the committee!
       image: /img/hadiya.jpg
-      social:
-        - Link: https://www.facebook.com/
-          source: facebook
-        - Link: https://www.instagram.com/
-          source: instagram
-        - Link: https://www.twitter.com/
-          source: twitter
+      social: []
   heading: Our Committee
   intro: >-
     Our committee is compromised of 14 students from various year groups and we
