@@ -52,6 +52,19 @@ ourCommittee:
         the other members of the committee!
       image: /img/hadiya.jpg
       social: []
+    - name: Summa Baines
+      role: Treasurer
+      bio: Hello! My name is Summa Bains and I am a second year dental student at the
+        University of Manchester. As treasurer for MPDSS, I am responsible for
+        overseeing the financial affairs of the society, exercising fiduciary
+        duties along with my fellow founding members to ensure the
+        sustainability of MPDSS. I am very excited and honoured to work with the
+        committee in establishing the foundations of this new society, and
+        equally keen to raise oral health standards amongst children through our
+        campaigning and outreach work with local primary schools. I am committed
+        to ensuring all our hosted events are of great value to both fellow
+        dental students as well as the wider Manchester community.
+      image: /img/summa.jpg
   heading: Our Committee
   intro: >-
     Our committee is compromised of 14 students from various year groups and we
