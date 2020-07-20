@@ -2,18 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const ScrollSpy = ({ scrollItems }) => (
-  <aside className="menu">
-    <p class="menu-label">{scrollItems.heading}</p>
-      <ul className="menu-list">
-          {scrollItems.scrollItems.map(item => (
+<nav class="menu" className="navbar navbar-light bg-light">
+  <p className="navbar-brand w-100">Menu</p>
+  <nav className="nav nav-pills flex-column">
+    {scrollItems.scrollItems.map(item => (
+
+    <a className="nav-link" href={item.link}>{item.linkText}</a>
+
+  ))}
+  </nav>
+</nav>
 
 
-          <li><a href={item.link}>{item.linkText} <i class="fas fa-arrow-right"></i></a></li>
-
-
-        ))}
-      </ul>
-</aside>
 )
 
 ScrollSpy.propTypes = {

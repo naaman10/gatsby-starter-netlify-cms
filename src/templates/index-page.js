@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/Layout'
 import FeatureCards from '../components/FeatureCards'
 import Features from '../components/Features'
@@ -54,30 +54,27 @@ export const IndexPageTemplate = ({
       >
         {subheading}
       </h3>
-      <h3><a href="#featureSection"><span class="tag is-light featureTag">{features.heading}</span></a></h3>
+      <h3><a href="#featureSection"><span class="btn btn-light btn-rounded">{features.heading}</span></a></h3>
       </div>
     </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content" id="featureSection">
-                <FeatureCards featuredItems={features.featuredItems} />
-              </div>
+    <section className="container-fluid">
+
+          <div className="row mt-5" id="featureSection">
+            <div className="col-md-8 offset-md-2">
+              <FeatureCards featuredItems={features.featuredItems} />
               <div className="content">
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="font-weight-bold display-4 mb-4">
                       {heading}
                     </h3>
                     <p>{description}</p>
                   </div>
                 </div>
-
                 <Features gridItems={intro.blurbs} />
+                <section>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <h3 className="font-weight-bold display-4 mb-4">
                     Latest stories
                   </h3>
                   <BlogRoll />
@@ -87,11 +84,11 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
+              </section>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+
     </section>
   </div>
 )

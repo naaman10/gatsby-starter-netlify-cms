@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import ReactMarkdown from 'react-markdown'
 
 const Testimonial = ({ testiData }) => (
+  <section>
   <div className="column is-12">
     <h3 id={testiData.link}>{testiData.heading}</h3>
     <ReactMarkdown
@@ -11,7 +12,7 @@ const Testimonial = ({ testiData }) => (
     />
   <div className="columns">
     {testiData.testimonials.map(item => (
-      <div className="testimonials has-text-centered">
+      <div className="testimonials text-center">
         <span><i class="fas fa-quote-left"></i></span><span className="quote-text"> {item.quote} </span><span><i class="fas fa-quote-right"></i></span>
         <br />
         <cite> – {item.source} | {item.school}</cite>
@@ -19,6 +20,7 @@ const Testimonial = ({ testiData }) => (
     ))}
   </div>
 </div>
+</section>
 )
 
 Testimonial.propTypes = {

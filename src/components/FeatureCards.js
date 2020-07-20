@@ -3,12 +3,12 @@ import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const FeatureCards = ({ featuredItems }) => (
-  <div className="columns is-multiline">
+  <div className="row">
     {featuredItems.map(item => (
 
-      <div key={item.text} className="column is-4">
-        <div className="card">
-          <div className="card-image has-text-centered">
+      <div key={item.text} className="col-md-4">
+        <div className="card text-center">
+          <div className="card-img-top">
             <div
               style={{
                 width: '200px',
@@ -16,13 +16,13 @@ const FeatureCards = ({ featuredItems }) => (
                 padding: '10px',
               }}
             >
-              <img src={item.image.publicURL} />
+              <img src={item.image.publicURL} className="img-fluid"/>
             </div>
           </div>
-          <div className="card-content has-text-centered">
-            <h3>{item.title}</h3>
-            <p>{item.text}</p>
-            <a href={item.link} className="btn">{item.linkText}</a>
+          <div className="card-body">
+            <h3 className="card-title">{item.title}</h3>
+            <p className="card-text">{item.text}</p>
+            <a href={item.link} className="btn btn-primary">{item.linkText}</a>
           </div>
         </div>
       </div>

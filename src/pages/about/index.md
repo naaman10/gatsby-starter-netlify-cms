@@ -20,28 +20,32 @@ weWork:
     Our committee have worked tirelessly over the Summer to coordinate primary
     school sessions and events which are carefully designed with our target
     audience in mind. We have also collaborated with specialists within the
-    relevant dental fields to create these events. 
+    relevant dental fields to create these events.
 
 
     Various members of our committee contact schools and speakers directly in order to arrange educational sessions with them, however, we also welcome approach from schools and speakers that/who are interested in getting involved with our society.
 ourCommittee:
   members:
-    - name: Yasmin Egonu
+    - id: 1
+      name: Yasmin Egonu
       role: Founder and President
       image: /img/100604343_3530083057008970_8820866041384009728_n.jpg
       bio: >-
         Firstly, I would like to give a warm welcome to any visitors to this
         website!
 
-        My name is Yasmin and I am in my second year of dental schools at the University of Manchester. I set up MPDSS after identifying that I had (and still have) a vested interest in paediatric dentistry; but there were not many opportunities for me to learn about this speciality until later years. 
+        My name is Yasmin and I am in my second year of dental schools at the University of Manchester. I set up MPDSS after identifying that I had (and still have) a vested interest in paediatric dentistry; but there were not many opportunities for me to learn about this speciality until later years.
 
 
-        I am committed to preventative dentistry and improving the oral health of students in the Manchester area. In particular, I have wanted to focus on educating primary school students from lower socioeconomic backgrounds. I also have the aim of being able to open up the world of paediatric dentistry to any dental student at my University who is interested in learning more. 
+        I am committed to preventative dentistry and improving the oral health of students in the Manchester area. In particular, I have wanted to focus on educating primary school students from lower socioeconomic backgrounds. I also have the aim of being able to open up the world of paediatric dentistry to any dental student at my University who is interested in learning more.
 
 
         I am thoroughly excited to see where we can take this society and I look forward to leading the committee.
-      social: []
-    - name: Hadiya Begum
+      social:
+        - Link: asdfghjk
+          source: instagram
+    - id: 2
+      name: Hadiya Begum
       role: Secretary
       bio: Hi everyone! My name is Hadiya and I’m the secretary for the MPDSS. As the
         secretary my role will be to take minutes at meetings and ensure that
@@ -49,8 +53,11 @@ ourCommittee:
         a part of the MPDSS and I can’t wait to work with the children and also
         the other members of the committee!
       image: /img/hadiya.jpg
-      social: []
-    - name: Summa Baines
+      social:
+        - Link: sfdgfhjj
+          source: twitter
+    - id: 3
+      name: Summa Baines
       role: Treasurer
       bio: Hello! My name is Summa Bains and I am a second year dental student at the
         University of Manchester. As treasurer for MPDSS, I am responsible for
@@ -63,11 +70,14 @@ ourCommittee:
         to ensuring all our hosted events are of great value to both fellow
         dental students as well as the wider Manchester community.
       image: /img/summa.jpg
+      social:
+        - Link: asdfg
+          source: instagram
   heading: Our Committee
   intro: >-
     Our committee is compromised of 14 students from various year groups and we
     all work together to deliver fun and informative primary school sessions, as
-    well as talks and courses for dental students. 
+    well as talks and courses for dental students.
 
 
     Please see our committee below and discover our individual roles:

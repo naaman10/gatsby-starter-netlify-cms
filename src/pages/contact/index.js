@@ -1,3 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
@@ -44,7 +48,7 @@ export default class Index extends React.Component {
           }}
         >
           <h2
-            className="has-text-weight-bold is-size-1"
+            className="has-text-weight-bold display-4"
             style={{
               color: 'white',
               padding: '1rem',
@@ -72,55 +76,53 @@ export default class Index extends React.Component {
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
                 </div>
-                <div className="field">
-                  <label className="label" htmlFor={'name'}>
+                <div className="form-group">
+                  <label htmlFor={'name'}>
                     Your name
                   </label>
-                  <div className="control">
                     <input
-                      className="input"
+                      className="form-control"
                       type={'text'}
                       name={'name'}
                       onChange={this.handleChange}
                       id={'name'}
                       required={true}
                     />
-                  </div>
                 </div>
-                <div className="field">
-                  <label className="label" htmlFor={'email'}>
+                <div className="form-group">
+                  <label htmlFor={'email'}>
                     Email
                   </label>
-                  <div className="control">
+
                     <input
-                      className="input"
+                      className="form-control"
                       type={'email'}
                       name={'email'}
                       onChange={this.handleChange}
                       id={'email'}
                       required={true}
                     />
-                  </div>
+
                 </div>
-                <div className="field">
-                  <label className="label" htmlFor={'message'}>
+                <div className="form-group">
+                  <label htmlFor={'message'}>
                     Message
                   </label>
-                  <div className="control">
+
                     <textarea
-                      className="textarea"
+                      className="form-control"
                       name={'message'}
                       onChange={this.handleChange}
                       id={'message'}
                       required={true}
                     />
-                  </div>
+
                 </div>
-                <div className="field">
-                  <button className="button is-link" type="submit">
+
+                  <button className="btn btn-primary" type="submit">
                     Send
                   </button>
-                </div>
+
               </form>
             </div>
           </div>

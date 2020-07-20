@@ -1,10 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -37,77 +33,47 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <h1 className="logoMPDSS"><span className="m">M</span><span className="p">P</span><span className="d">D</span><span className="s">S</span><span className="s2">S</span></h1>
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass} animate__animated anitmate__slideInRight`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+      <nav className="navbar navbar-expand-lg">
+        <Link className="navbar-brand" href="#"><h1 className="logoMPDSS"><span className="m">M</span><span className="p">P</span><span className="d">D</span><span className="s">S</span><span className="s2">S</span></h1></Link>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">
                 About Us
               </Link>
-              <Link className="navbar-item" to="/dental-students">
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/dental-students">
                 Dental Students
               </Link>
-              <Link className="navbar-item" to="/primary-schools">
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/primary-schools">
                 Primary Schools
               </Link>
-              <Link className="navbar-item" to="/parents-and-caregivers">
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/parents-and-caregivers">
                 Parents & Caregivers
               </Link>
-              <Link className="navbar-item" to="/contact">
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact/examples">
               </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-            <div className="column social">
-              <a title="facebook" href="https://facebook.com">
-                <img
-                  src={facebook}
-                  alt="Facebook"
-                  style={{ width: '1em', height: '1em' }}
-                />
-              </a>
-              <a title="twitter" href="https://twitter.com">
-                <img
-                  className="fas fa-lg"
-                  src={twitter}
-                  alt="Twitter"
-                  style={{ width: '1em', height: '1em' }}
-                />
-              </a>
-              <a title="instagram" href="https://instagram.com">
-                <img
-                  src={instagram}
-                  alt="Instagram"
-                  style={{ width: '1em', height: '1em' }}
-                />
-              </a>
-            </div>
-            </div>
+            </li>
+          </ul>
+          <div className="social my-2 my-lg-0">
+            <a title="facebook" href="https://facebook.com" target="_blank"><i className="fab fa-facebook-square"></i></a>
+            <a title="twitter" href="https://twitter.com" target="_blank"><i className="fab fa-twitter"></i></a>
+            <a title="instagram" href="https://instagram.com" target="_blank"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
       </nav>

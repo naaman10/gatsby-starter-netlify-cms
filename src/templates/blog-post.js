@@ -19,9 +19,8 @@ export const BlogPostTemplate = ({
   return (
     <section className="section">
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
+        <div className="row">
+          <div className="col-md-8 offset-md-2">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
@@ -40,7 +39,6 @@ export const BlogPostTemplate = ({
               </div>
             ) : null}
           </div>
-        </div>
       </div>
     </section>
   )

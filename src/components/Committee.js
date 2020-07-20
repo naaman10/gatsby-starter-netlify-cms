@@ -3,31 +3,29 @@ import PropTypes from 'prop-types'
 import ReactMarkdown from 'react-markdown'
 
 const Committee = ({ committeeData }) => (
+<section>
   <div className="column is-12">
     <h3 id={committeeData.link}>{committeeData.heading}</h3>
     <ReactMarkdown
       source={committeeData.intro}
       escapeHtml={false}
     />
-  <div className="columns space-evenly">
+  <div className="row space-evenly">
     {committeeData.members.map(item => (
-      <div className="column is-3">
-        <div className="profile-card">
-          <div className="profile-card-image" style={{
-            maxHeight: '240px',
-          }}>
-            <img src={item.image.childImageSharp.fluid.src} />
-          </div>
-          <div className="profile-card-body is-tex">
-            <h4 className="profile-card-heading">{item.name}</h4>
-            <p className="profile-card-subheading">{item.role}</p>
+      <div className="col-md-3">
+        <div className="card">
+          <img src={item.image.childImageSharp.fluid.src} className="card-img-top"/>
+          <div className="card-body text-center">
+            <h4 className="card-title">{item.name}</h4>
+            <p className="text-muted">{item.role}</p>
+            <button className="btn btn-primary" type="button" data-toggle="modal" data-target={`#modal-${item.id}`}>Find out more</button>
           </div>
           { item.social.length > 0 &&
-            <div className="profile-card-footer">
+            <div className="card-footer">
               <div className="socialList">
             {item.social.map(item => (
               <a href={item.Link} className="socialListItem" target="_blank">
-                <i class={"fab fa-" + item.source}></i>
+                <i className={"fab fa-" + item.source}></i>
               </a>
             ))}
               </div>
@@ -38,6 +36,7 @@ const Committee = ({ committeeData }) => (
     ))}
   </div>
 </div>
+</section>
 )
 
 Committee.propTypes = {
@@ -45,6 +44,7 @@ Committee.propTypes = {
   intro: PropTypes.string,
   members: PropTypes.arrayOf(
     PropTypes.shape({
+      id: PropTypes.string,
       name: PropTypes.string,
       bio: PropTypes.string,
       role: PropTypes.string,

@@ -9,52 +9,37 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline">
+      <div className="row">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className={`is-parent column ${
-              post.frontmatter.featuredpost ? 'is-12' : 'is-4'
+            <div className={` ${
+              post.frontmatter.featuredpost ? 'col-md-12' : 'col-md-4'
             }`} key={post.id}>
 
-              <article
-                className={`blog-list-item is-child box ${
+              <div className={`card ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
-                <header>
+                <div className="card-img-top">
                   {post.frontmatter.featuredimage ? (
-                    <div className="blogPreviewImage">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          alt: `${post.frontmatter.title}`,
                         }}
+                        className="img-fluid"
                       />
-                    </div>
+
                   ) : null}
 
-                </header>
-                <p className="title has-text-primary is-size-4">
-                  <Link
-                    to={post.fields.slug}
-                  >
-                    {post.frontmatter.title}
-                  </Link>
-                  </p>
-                  <p>
-                  <span className="is-size-7 is-block">
-                    {post.frontmatter.date}
-                  </span>
-                  </p>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Read More
-                  </Link>
-                </p>
-              </article>
+                </div>
+                <div className="card-body">
+                  <p className="card-title">{post.frontmatter.title}</p>
+                  <p><span className="is-size-7 is-block">{post.frontmatter.date}</span></p>
+                  <p className="card-text">{post.excerpt}</p>
+                  <Link className="btn btn-primary" to={post.fields.slug}>Read More</Link>
+                </div>
+              </div>
             </div>
           ))}
       </div>

@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import ScrollSpy from '../components/ScrollSpy'
 import Committee from '../components/Committee'
+import CommitteeModal from '../components/CommitteeModal'
 import WeWork from '../components/WeWork'
 import Testimonial from '../components/Testimonial'
 
@@ -30,7 +31,7 @@ export const AboutPageTemplate = ({
       }}
     >
       <h2
-        className="has-text-weight-bold is-size-1"
+        className="font-weight-bold display-4"
         style={{
           color: 'white',
           padding: '1rem',
@@ -39,18 +40,17 @@ export const AboutPageTemplate = ({
         {title}
       </h2>
     </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-2">
-              <ScrollSpy scrollItems={scrollSection} />
-            </div>
-            <div className="column is-10">
-              <WeWork weWorkData={weWork} />
-              <Committee committeeData={ourCommittee} />
-              <Testimonial testiData={testimonialSection} />
-            </div>
+    <section>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <ScrollSpy scrollItems={scrollSection} />
+          </div>
+          <div className="col-md-10">
+            <WeWork weWorkData={weWork} />
+            <Committee committeeData={ourCommittee} />
+            <CommitteeModal committeeModal={ourCommittee} />
+            <Testimonial testiData={testimonialSection} />
           </div>
         </div>
       </div>
@@ -151,6 +151,7 @@ query AboutPage($id: String!) {
         intro
         link
         members {
+          id
           name
           role
           bio

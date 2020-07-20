@@ -15,7 +15,7 @@ export default class BlogIndexPage extends React.Component {
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1"
+            className="has-text-weight-bold display-4"
             style={{
               color: 'white',
               padding: '1rem',

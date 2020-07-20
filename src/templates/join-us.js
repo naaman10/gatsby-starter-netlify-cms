@@ -25,7 +25,7 @@ export const ProductPageTemplate = ({
       }}
     >
       <h2
-        className="has-text-weight-bold is-size-1"
+        className="has-text-weight-bold display-4"
         style={{
           color: 'white',
           padding: '1rem',
@@ -34,19 +34,17 @@ export const ProductPageTemplate = ({
         {title}
       </h2>
     </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-2">
-              <ScrollSpy scrollItems={scrollSection} />
-            </div>
-
-              <ContentMain content={main} />
-
+    <section>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <ScrollSpy scrollItems={scrollSection} />
+          </div>
+          <div className="col-md-10">
+            <ContentMain content={main} />
+          </div>
           </div>
         </div>
-      </div>
     </section>
   </div>
 )
