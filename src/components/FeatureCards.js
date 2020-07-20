@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const FeatureCards = ({ featuredItems }) => (
   <div className="row">
@@ -16,7 +15,7 @@ const FeatureCards = ({ featuredItems }) => (
                 padding: '10px',
               }}
             >
-              <img src={item.image.publicURL} className="img-fluid"/>
+              <img src={item.image.publicURL} className="img-fluid" alt={item.title}/>
             </div>
           </div>
           <div className="card-body">

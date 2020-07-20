@@ -71,9 +71,9 @@ const Navbar = class extends React.Component {
             </li>
           </ul>
           <div className="social my-2 my-lg-0">
-            <a title="facebook" href="https://facebook.com" target="_blank"><i className="fab fa-facebook-square"></i></a>
-            <a title="twitter" href="https://twitter.com" target="_blank"><i className="fab fa-twitter"></i></a>
-            <a title="instagram" href="https://instagram.com" target="_blank"><i className="fab fa-instagram"></i></a>
+            <a title="facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i className="fab fa-facebook-square"></i></a>
+            <a title="twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
+            <a title="instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
       </nav>

@@ -14,7 +14,7 @@ const Committee = ({ committeeData }) => (
     {committeeData.members.map(item => (
       <div className="col-md-3">
         <div className="card">
-          <img src={item.image.childImageSharp.fluid.src} className="card-img-top"/>
+          <img src={item.image.childImageSharp.fluid.src} className="card-img-top" alt={item.name} />
           <div className="card-body text-center">
             <h4 className="card-title">{item.name}</h4>
             <p className="text-muted">{item.role}</p>
@@ -24,7 +24,7 @@ const Committee = ({ committeeData }) => (
             <div className="card-footer">
               <div className="socialList">
             {item.social.map(item => (
-              <a href={item.Link} className="socialListItem" target="_blank">
+              <a href={item.Link} className="socialListItem" target="_blank" rel="noopener noreferrer">
                 <i className={"fab fa-" + item.source}></i>
               </a>
             ))}

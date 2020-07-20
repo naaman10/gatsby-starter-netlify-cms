@@ -25,7 +25,7 @@ const CommitteeModal = ({ committeeModal }) => (
 
                         <div className="socialList">
                       {item.social.map(item => (
-                        <a href={item.Link} className="socialListItem" target="_blank">
+                        <a href={item.Link} className="socialListItem" target="_blank" rel="noopener noreferrer">
                           <i className={"fab fa-" + item.source}></i>
                         </a>
                       ))}
