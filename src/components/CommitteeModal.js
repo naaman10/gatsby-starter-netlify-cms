@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ReactMarkdown from 'react-markdown'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const CommitteeModal = ({ committeeModal }) => (
   <div>
@@ -13,7 +12,7 @@ const CommitteeModal = ({ committeeModal }) => (
               <div className="container-fluid">
                 <div className="row">
                   <div className="col-md-4">
-                    <PreviewCompatibleImage imageInfo={item.image} className="img-fluid" />
+                    <img src={item.image.childImageSharp.fluid.src} className="img-fluid" alt={item.name} />
                   </div>
                   <div className="col-md-8">
                     <h3 className="modal-title" id="staticBackdropLabel">{item.name}</h3>
