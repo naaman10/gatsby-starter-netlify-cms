@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown'
 const CommitteeModal = ({ committeeModal }) => (
   <div>
     {committeeModal.members.map(item => (
-      <div className="modal fade" id={`modal-${item.id}`} data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby={`modal-${item.id}`} aria-hidden="true">
+      <div className="modal fade" id={`modal-${item.id}`} tabIndex="-1" role="dialog" aria-labelledby={`modal-${item.id}`} aria-hidden="true">
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div className="modal-body">

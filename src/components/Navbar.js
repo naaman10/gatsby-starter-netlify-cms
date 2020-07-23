@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -36,7 +35,7 @@ const Navbar = class extends React.Component {
       <nav className="navbar navbar-expand-lg">
         <Link className="navbar-brand" href="#"><h1 className="logoMPDSS"><span className="m">M</span><span className="p">P</span><span className="d">D</span><span className="s">S</span><span className="s2">S</span></h1></Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
+          <i className="fas fa-bars"></i>
         </button>
         <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
           <ul className="navbar-nav">

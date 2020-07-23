@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import ReactMarkdown from 'react-markdown'
 
+
 const Committee = ({ committeeData }) => (
 <section>
   <div className="column is-12">
@@ -37,6 +38,8 @@ const Committee = ({ committeeData }) => (
   </div>
 </div>
 </section>
+
+
 )
 
 Committee.propTypes = {

@@ -23,8 +23,18 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/join-us">
-                        Join Us
+                      <Link className="navbar-item" to="/dental-students">
+                        Dental Students
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/primary-schools">
+                        Primary Schools
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/parents-and-caregivers">
+                        Parents and Caregivers
                       </Link>
                     </li>
                   </ul>
@@ -39,7 +49,7 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact/examples">
+                      <Link className="navbar-item" to="/contact">
                         Contact
                       </Link>
                     </li>
@@ -47,9 +57,9 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="col-md-4 social">
-                <a title="facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
-                <a title="twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a title="instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a title="facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i className="fab fa-facebook-square"></i></a>
+                <a title="twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
+                <a title="instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import FeatureCards from '../components/FeatureCards'
 import Features from '../components/Features'
@@ -54,7 +53,7 @@ export const IndexPageTemplate = ({
       >
         {subheading}
       </h3>
-      <h3><a href="#featureSection"><span class="btn btn-light btn-rounded">{features.heading}</span></a></h3>
+      <h3><a href="#featureSection"><span className="btn btn-light btn-rounded">{features.heading}</span></a></h3>
       </div>
     </div>
     <section className="container-fluid">

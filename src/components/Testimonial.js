@@ -13,7 +13,7 @@ const Testimonial = ({ testiData }) => (
   <div className="columns">
     {testiData.testimonials.map(item => (
       <div className="testimonials text-center">
-        <span><i class="fas fa-quote-left"></i></span><span className="quote-text"> {item.quote} </span><span><i class="fas fa-quote-right"></i></span>
+        <span><i className="fas fa-quote-left"></i></span><span className="quote-text"> {item.quote} </span><span><i className="fas fa-quote-right"></i></span>
         <br />
         <cite> – {item.source} | {item.school}</cite>
       </div>
