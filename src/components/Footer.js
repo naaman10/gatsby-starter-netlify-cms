@@ -57,9 +57,9 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="col-md-4 social">
-                <a title="facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i className="fab fa-facebook-square"></i></a>
-                <a title="twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
-                <a title="instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+                <a title="facebook" href="https://www.facebook.com/mpdssoc/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i className="fab fa-facebook-square"></i></a>
+                <a title="twitter" href="https://twitter.com/mpdssoc" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
+                <a title="instagram" href="https://instagram.com/mpdssoc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>

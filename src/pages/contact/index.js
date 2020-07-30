@@ -55,6 +55,8 @@ export default class Index extends React.Component {
         </div>
         <section className="section">
           <div className="container">
+            <div class="row justify-content-center">
+            <div className="col-12 col-md-8">
             <div className="content">
               <form
                 name="contact"
@@ -72,8 +74,8 @@ export default class Index extends React.Component {
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
                 </div>
-                <div className="form-group">
-                  <label htmlFor={'name'}>
+                <div className="mb-3">
+                  <label className="form-label" htmlFor={'name'}>
                     Your name
                   </label>
                     <input
@@ -85,8 +87,8 @@ export default class Index extends React.Component {
                       required={true}
                     />
                 </div>
-                <div className="form-group">
-                  <label htmlFor={'email'}>
+                <div className="mb-3">
+                  <label className="form-label" htmlFor={'email'}>
                     Email
                   </label>
 
@@ -100,8 +102,8 @@ export default class Index extends React.Component {
                     />
 
                 </div>
-                <div className="form-group">
-                  <label htmlFor={'message'}>
+                <div className="mb-3">
+                  <label className="form-label" htmlFor={'message'}>
                     Message
                   </label>
 
@@ -114,14 +116,15 @@ export default class Index extends React.Component {
                     />
 
                 </div>
-
-                  <button className="btn btn-primary" type="submit">
-                    Send
-                  </button>
-
+                <p className="small">MPDSS are the data controllers of any personal data you provide to us on this form. For further information on our uses of your personal data, please see the MPDSS Privacy Policy.</p>
+                <button className="btn btn-primary" type="submit">
+                  Send
+                </button>
               </form>
             </div>
           </div>
+          </div>
+        </div>
         </section>
       </Layout>
     )

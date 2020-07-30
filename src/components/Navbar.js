@@ -33,7 +33,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg">
-        <Link className="navbar-brand" href="#"><h1 className="logoMPDSS"><span className="m">M</span><span className="p">P</span><span className="d">D</span><span className="s">S</span><span className="s2">S</span></h1></Link>
+        <Link className="navbar-brand" href=".."><h1 className="logoMPDSS"><span className="m">M</span><span className="p">P</span><span className="d">D</span><span className="s">S</span><span className="s2">S</span></h1></Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <i className="fas fa-bars"></i>
         </button>
@@ -70,9 +70,9 @@ const Navbar = class extends React.Component {
             </li>
           </ul>
           <div className="social my-2 my-lg-0">
-            <a title="facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i className="fab fa-facebook-square"></i></a>
-            <a title="twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
-            <a title="instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+            <a title="facebook" href="https://www.facebook.com/mpdssoc/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i className="fab fa-facebook-square"></i></a>
+            <a title="twitter" href="https://twitter.com/mpdssoc" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
+            <a title="instagram" href="https://instagram.com/mpdssoc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
       </nav>
