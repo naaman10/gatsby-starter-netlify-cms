@@ -2,15 +2,23 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import bootstrap from 'bootstrap'
+// import bootstrap from 'bootstrap'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+    gtmId: 'GTM-MWFCKV8'
+}
+if (typeof window !== 'undefined') {
+    TagManager.initialize(tagManagerArgs);
+}
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div className="naaman">
+    <div className="mpdss">
       <Helmet>
         <html lang="en" />
       <title>{title}</title>
@@ -66,12 +74,20 @@ wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
           property="og:image"
           content={`${withPrefix('/')}img/toooth.jpeg`}
         />
+        <script
+          src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+          crossOrigin="anonymous">
+      </script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossOrigin="anonymous">
+      </script>
       </Helmet>
       <Navbar />
       <div>{children}</div>
       <Footer />
-
-
 
     </div>
   )
