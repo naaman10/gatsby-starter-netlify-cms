@@ -49,7 +49,7 @@ export const AboutPageTemplate = ({
           <div className="col-md-10">
             <WeWork weWorkData={weWork} />
             <Committee committeeData={ourCommittee} />
-            <CommitteeModal committeeModal={ourCommittee} />
+            <CommitteeModal committeeModalData={ourCommittee} />
             <Testimonial testiData={testimonialSection} />
           </div>
         </div>
@@ -64,7 +64,7 @@ AboutPageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   scrollSection: PropTypes.shape({
-    scrollItems: PropTypes.array,
+    scrollItemsList: PropTypes.array,
   }),
   main: PropTypes.shape({
     content: PropTypes.array,
@@ -133,7 +133,7 @@ query AboutPage($id: String!) {
       description
       scrollSection {
         heading
-        scrollItems {
+        scrollItemsList {
           link
           linkText
         }

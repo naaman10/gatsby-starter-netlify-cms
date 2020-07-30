@@ -9,7 +9,7 @@ description: Mus natoque fames tellus ante justo senectus massa aliquam
   nam parturient elementum.
 scrollSection:
   heading: Menu
-  scrollItems:
+  scrollItemsList:
     - link: "#opportunities-for-students"
       linkText: Opportunities for students
     - link: "#becoming-a-volunteer"
@@ -57,7 +57,7 @@ main:
         all of our volunteers to have had an advanced DBS check.
 
 
-        As we are a new society, we aim to start our oral health education sessions in a limited number of schools. Once we have established which aspects of our sessions work well/could be improved; we will then expand our sessions to more primary schools in the Manchester area. 
+        As we are a new society, we aim to start our oral health education sessions in a limited number of schools. Once we have established which aspects of our sessions work well/could be improved; we will then expand our sessions to more primary schools in the Manchester area.
 
 
         Therefore, there will be a limited number of volunteer vacancies in our first year of operation. We will advertise all volunteering vacancies on this website and on social media - please keep an eye out!
@@ -69,7 +69,7 @@ main:
         health science students; delivered by respected paediatric dentists!
         This is a great way for students to learn more about the specilaity;
         which can introduce them to the speciality earlier on in their course or
-        aid their pre-exisitng understanding of the speciality. 
+        aid their pre-exisitng understanding of the speciality.
 
 
         We welcome any speaker/topic suggestions from current students! Suggestions can be sent to mpdss@gmail.com to be picked up by our Speakers Co-ordinator (Saif).
@@ -93,7 +93,7 @@ main:
         Our course is being created by the President (Yasmin) and Vice President (Sabina), along with the expertise and assistance of Dr. Siobhan Barry - an experienced paediatric consultant at the University Dental Hospital of Manchester.
 
 
-        We aim to make this course applicable to all year groups. 
+        We aim to make this course applicable to all year groups.
 
 
         More information to follow!

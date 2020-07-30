@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, useStaticQuery, graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import FeatureCards from '../components/FeatureCards'
 import Features from '../components/Features'

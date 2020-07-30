@@ -6,7 +6,7 @@ heading: About
 description: Not really using these on this page.
 scrollSection:
   heading: Menu
-  scrollItems:
+  scrollItemsList:
     - link: "#how-we-work"
       linkText: How We Work
     - link: "#our-committee"

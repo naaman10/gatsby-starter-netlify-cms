@@ -6,14 +6,6 @@ import bootstrap from 'bootstrap'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
-import TagManager from 'react-gtm-module'
-
-const tagManagerArgs = {
-    gtmId: 'GTM-MWFCKV8'
-}
-if (typeof window !== 'undefined') {
-    TagManager.initialize(tagManagerArgs);
-}
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()

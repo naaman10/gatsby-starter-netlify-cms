@@ -48,6 +48,7 @@ Committee.propTypes = {
   members: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string,
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       name: PropTypes.string,
       bio: PropTypes.string,
       role: PropTypes.string,

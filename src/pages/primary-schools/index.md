@@ -9,7 +9,7 @@ description: Mus natoque fames tellus ante justo senectus massa aliquam
   nam parturient elementum.
 scrollSection:
   heading: Menu
-  scrollItems:
+  scrollItemsList:
     - link: "#our-programme"
       linkText: Our programme
     - link: "#child-safeguarding"

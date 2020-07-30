@@ -9,7 +9,7 @@ description: Mus natoque fames tellus ante justo senectus massa aliquam
   nam parturient elementum.
 scrollSection:
   heading: Menu
-  scrollItems:
+  scrollItemsList:
     - link: "#primary-school-sessions"
       linkText: About our primary school sessions
     - link: "#oral-health-manual"

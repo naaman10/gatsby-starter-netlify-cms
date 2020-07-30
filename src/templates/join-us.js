@@ -58,7 +58,7 @@ ProductPageTemplate.propTypes = {
     blurbs: PropTypes.array,
   }),
   scrollSection: PropTypes.shape({
-    scrollItems: PropTypes.array,
+    scrollItemsList: PropTypes.array,
   }),
   main: PropTypes.shape({
     content: PropTypes.array,
@@ -126,7 +126,7 @@ export const productPageQuery = graphql`
         }
         scrollSection {
           heading
-          scrollItems {
+          scrollItemsList {
             link
             linkText
           }
