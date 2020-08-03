@@ -8,35 +8,21 @@ const CommitteeModal = ({ committeeModalData }) => (
       <div className="modal fade" id={`modal-${item.id}`} tabIndex="-1" role="dialog" aria-labelledby={`modal-${item.id}`} aria-hidden="true">
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
-            <div className="modal-body">
-              <div className="container-fluid">
+            <div className="modal-body p-0">
+              <div className="container-fluid p-0">
                 <div className="row">
                   <div className="col-md-4">
                     <img src={item.image.childImageSharp.fluid.src} className="img-fluid" alt={item.name} />
                   </div>
-                  <div className="col-md-8">
+                  <div className="col-md-8 p-3">
                     <h3 className="modal-title" id="staticBackdropLabel">{item.name}</h3>
                     <ReactMarkdown
                       source={item.bio}
                       escapeHtml={false}
                     />
-                    { item.social.length > 0 &&
-
-                        <div className="socialList">
-                      {item.social.map(item => (
-                        <a href={item.Link} className="socialListItem" target="_blank" rel="noopener noreferrer">
-                          <i className={"fab fa-" + item.source}></i>
-                        </a>
-                      ))}
-                        </div>
-                    }
                   </div>
-
                 </div>
               </div>
-            </div>
-            <div className="modal-footer">
-              <button type="button" className="btn btn-primary" data-dismiss="modal">Done</button>
             </div>
           </div>
         </div>

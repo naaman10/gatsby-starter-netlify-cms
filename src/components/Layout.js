@@ -37,6 +37,10 @@ const TemplateWrapper = ({ children }) => {
         crossOrigin="anonymous"
         />
         <link
+          href="https://themes.getbootstrap.com/wp-content/themes/dokan/assets/css/skins/purple.css"
+          rel="stylesheet"
+         />
+        <link
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-
 awesome.min.css"
           rel="stylesheet"
@@ -84,6 +88,7 @@ wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
         crossOrigin="anonymous">
       </script>
+
       </Helmet>
       <Navbar />
       <div>{children}</div>

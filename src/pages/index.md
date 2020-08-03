@@ -26,15 +26,12 @@ intro:
         find it imperative that dental students are given the opportunity to
         gain early exposure to paediatric dentistry in order to foster interest
         in the speciality and to help them become well-rounded dentists.   
-
-
-
     - image: /img/undraw_doctors_hwty.png
       text: "Being able to chart mixed dentition easily is a refined skill and dental
         students can often worry about their competency in regards to this task.
         - This is why our society aims to create and deliver a mixed dentition
         course to dental students (of all year groups) at the University of
-        Manchester. "
+        Manchester."
   heading: What we offer
   description: >
     Natoque pede faucibus ad fringilla maecenas nullam ultrices ligula. Pede

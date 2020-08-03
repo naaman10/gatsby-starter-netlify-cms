@@ -14,7 +14,7 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className={` ${
               post.frontmatter.featuredpost ? 'col-md-12' : 'col-md-4'
-            }`} key={post.id}>
+            } mb-3`} key={post.id}>
 
               <div className={`card ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''

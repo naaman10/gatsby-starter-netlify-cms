@@ -41,9 +41,6 @@ ourCommittee:
 
 
         I am thoroughly excited to see where we can take this society and I look forward to leading the committee.
-      social:
-        - Link: asdfghjk
-          source: instagram
     - id: 2
       name: Hadiya Begum
       role: Secretary
@@ -53,9 +50,6 @@ ourCommittee:
         a part of the MPDSS and I can’t wait to work with the children and also
         the other members of the committee!
       image: /img/hadiya.jpg
-      social:
-        - Link: sfdgfhjj
-          source: twitter
     - id: 3
       name: Summa Baines
       role: Treasurer
@@ -70,9 +64,6 @@ ourCommittee:
         to ensuring all our hosted events are of great value to both fellow
         dental students as well as the wider Manchester community.
       image: /img/summa.jpg
-      social:
-        - Link: asdfg
-          source: instagram
   heading: Our Committee
   intro: >-
     Our committee is compromised of 14 students from various year groups and we

@@ -5,7 +5,7 @@ const FeatureCards = ({ featuredItems }) => (
   <div className="row">
     {featuredItems.map(item => (
 
-      <div key={item.text} className="col-md-4">
+      <div key={item.text} className="col-md-4 mb-3">
         <div className="card text-center">
           <div className="card-img-top">
             <div

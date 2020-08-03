@@ -162,10 +162,6 @@ query AboutPage($id: String!) {
               }
             }
           }
-          social {
-            Link
-            source
-          }
         }
       }
       weWork {
